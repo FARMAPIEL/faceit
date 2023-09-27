@@ -1,0 +1,95 @@
+.styledLink--MenucolorKit{
+  color:#F96F62;
+  font-size: 18px;
+}
+.styledLink--Menucolor,
+.styledLink--iconsMenu{
+  color:#54565A;
+  font-size: 16px;
+}
+.menuItem--iconsMenu{
+  display:flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: start;
+  margin-top: .3em;
+  padding: 0 1.3em;
+}
+
+.styledLinkContent--menu-item {
+    font-family: sf pro display;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
+}
+
+.styledLinkContent--menu-header {
+    font-family: sf pro display;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.styledLinkContainer--menu-header {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.styledLinkContainer--menu-item {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.styledLinkContent--s5-mi-pregunta {
+  font-family: sf pro display;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1A1A1A;
+    padding: 22px 32px;
+   border-radius: 10px;
+    border: 1px solid rgba(113, 113, 113, 0.50);
+    background: #F2F0F2;
+    margin-top: 24px;
+    white-space : unset;
+
+}
+
+.styledLinkContent--s5-mi-respuesta {
+  font-family: sf pro display;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #717171;
+   margin-top: 32px;
+    margin-bottom: 0;
+  white-space: unset;
+}
+
+.styledLinkContainer--s5-mi-respuesta {
+  margin: 0;
+  padding: 0;
+}
+
+.styledLinkContainer--s5-mi-pregunta {
+  margin: 0;
+}
+
+.menuItem--s5-mi-pregunta .submenuAccordion {
+  padding-left: 0;
+}
+
+.accordionIcon--s5-mi-pregunta {
+  font-size: 36px;
+  font-weight: 200;
+}

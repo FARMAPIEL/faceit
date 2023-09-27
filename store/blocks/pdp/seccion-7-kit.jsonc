@@ -1,0 +1,85 @@
+{
+   "flex-layout.row#p-s7": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"p-s7"
+    },
+    "children": [
+      "image#p-s7",
+      "flex-layout.col#p-s7-kit"
+    ]
+  },
+   "flex-layout.row#p-s7-m": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"p-s7"
+    },
+    "children": [
+      "image#p-s7-m",
+      "flex-layout.col#p-s7-kit"
+    ]
+  },
+  "responsive-layout.desktop#p-s7": {
+    "children": ["flex-layout.row#p-s7"]
+  },
+  "responsive-layout.tablet#p-s7": {
+    "children": ["flex-layout.row#p-s7"]
+  },
+  "responsive-layout.mobile#p-s7": {
+    "children": ["flex-layout.row#p-s7-m"]
+  },
+   "image#p-s7": {
+    "props": {
+      "src": "/arquivos/p-s7.png",
+      "blockClass":"p-s7"
+    }
+  },
+   "image#p-s7-m": {
+    "props": {
+      "src": "/arquivos/p-s7-m.png",
+      "blockClass":"p-s7"
+    }
+  },
+  "flex-layout.col#p-s7-kit": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s7"
+    },
+    "children": [
+      "rich-text#p-s7-titulo",
+      "rich-text#p-s7-1",
+      "rich-text#p-s7-2",
+      "rich-text#p-s7-3"
+    ]
+  },
+   "rich-text#p-s7-titulo": {
+    "props": {
+      "text": "Ingredientes:",
+      "blockClass": "p-s7-titulo"
+    }
+  },
+  "rich-text#p-s7-1": {
+    "props": {
+      "text": "**Dermolimpiador con aceite del árbol de té** - Agua, Trideceth Sulfato de Sodio, Glicerina, Polisorbato 20, Trideceth-9, PEG-5, Isononanoato, Cloruro de Sodio, PEG-40 Aceite de Castor Hidrogenado, Alcohol Bencílico, Ácido Láctico, Aceite de la Hoja de Malaleuca Altenifolia (Tea Tree Oil), Benzoato de Sodio, EDTA Disódico, Sorbato de Potasio.",
+      "blockClass": "p-s7-texto"
+    }
+  },
+  "rich-text#p-s7-2": {
+    "props": {
+      "text": "**Tónico facial con ácido glicólico** - Agua, Glicerina, Aloe Vera, Ácido Glicólico, Extracto de Manzanilla, Pantenol, Sarcosina, Goma Xantana, Capriloil Glicerina, Extracto de Corteza de Cinnamomum Zeylanicum, Hidróxido de Amonio, Alcohol Bencílico, Benzoato de Sodio, Polisorbato 20, EDTA Disódico, Sorbato de Potasio, Extracto de la Hoja de Hamamelis Virginiana, Ácido Cítrico, Color Azul No. 1 FD&C.",
+      "blockClass": "p-s7-texto"
+    }
+  },
+  "rich-text#p-s7-3": {
+    "props": {
+      "text": "Peróxido de benzoílo gel 5% -\nCada 100gr contiene:\nPeróxido de Benzoílo…5.0g.\nExcipiente cbp…100.0g",
+      "blockClass": "p-s7-texto"
+    }
+  },
+  "rich-text#p-s7-3_1": {
+    "props": {
+      "text": "Referencias: \n1 . Tapia, A. G., de Lucas Laguna, R., Giménez, J. C. M., López, M. P., Pibernat, M. R., Prats, E. M., ... & Rivero, J. C. (2015). Consenso en el tratamiento tópico del acné. Med Cutan Iber Lat Am, 43(2), 104-121.\n2 . Dréno B, Layton AM, Troielli P, Rocha M, Chavda R. Adapalene/benzoyl peroxide gel 0.3%/2.5% for acne vulgaris. Eur J Dermatol. 2022 Jul 1;32(4):445-450. English. doi: 10.1684/ejd.2022.4275. PMID: 36301750.\n3 . Brammann, C., & Müller-Goymann, C. C. (2020). An update on formulation strategies of benzoyl peroxide in efficient acne therapy with special focus on minimizing undesired effects. International Journal of Pharmaceutics, 578, 119074.",
+      "blockClass": "p-s7-texto_ref"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "store.custom#faq": {
+    "children": [
+      "flex-layout.row#faq"
+    ]
+  },
+
+  "flex-layout.row#faq": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": [
+      "flex-layout.col#faq"
+    ]
+  },
+
+  "flex-layout.col#faq": {
+    "children": [
+      "rich-text#faq",
+      "disclosure-layout-group#group"
+    ]
+  },
+  "rich-text#faq": {
+    "props": {
+      "text": "## FAQ"
+    }
+  },
+
+
+
+
+
+
+
+
+
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up"
+    }
+  },
+  "icon-caret#down": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "up"
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+   "responsive-layout.desktop#about-seccion-0": {
+    "children": ["flex-layout.row#about-seccion-0"]
+  },
+  "responsive-layout.tablet#about-seccion-0": {
+    "children": ["flex-layout.row#about-seccion-0"]
+  },
+  "responsive-layout.mobile#about-seccion-0": {
+    "children": ["flex-layout.row#about-seccion-0-m"]
+  },
+
+
+  "flex-layout.row#about-seccion-0": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"about-seccion-0"
+    },
+    "children": [
+      "flex-layout.col#about-seccion-0",
+      "image#about-bg"
+    ]
+  },
+  "flex-layout.row#about-seccion-0-m": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"about-seccion-0"
+    },
+    "children": [
+      "flex-layout.col#about-seccion-0",
+      "image#about-bg-m"
+    ]
+  },
+
+  "flex-layout.col#about-seccion-0": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"about-seccion-0"
+    },
+    "children": [
+      "image#about-logo",
+      "rich-text#about-seccion-0-1",
+      "flex-layout.row#about-seccion-0-items",
+      "rich-text#about-seccion-0-2"
+    ]
+  },
+  "image#about-logo": {
+    "props": {
+      "src": "/arquivos/about-logo.png",
+      "blockClass":"about-logo"
+    }
+  },
+   "rich-text#about-seccion-0-1": {
+    "props": {
+      "text": "Bienvenido al\nbackstage",
+      "textPosition": "CENTER",
+      "blockClass": "about-seccion-0-1"
+    }
+  },
+   "rich-text#about-seccion-0-2": {
+    "props": {
+      "text": "Donde revelamos los secretos de Faceit 🫣",
+       "textPosition": "CENTER",
+      "blockClass": "about-seccion-0-2"
+    }
+  },
+
+  "flex-layout.row#about-seccion-0-items": {
+    "props": {
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass":"about-seccion-0-items"
+    },
+    "children": [
+       "image#about-s0-1",
+      "rich-text#about-seccion-0-3",
+       "image#about-s0-2",
+      "rich-text#about-seccion-0-4",
+       "image#about-s0-3",
+      "rich-text#about-seccion-0-5"
+
+    ]
+  },
+   "rich-text#about-seccion-0-3": {
+    "props": {
+      "text": "Limpia",
+      "blockClass": "about-seccion-0-item"
+    }
+  },
+   "rich-text#about-seccion-0-4": {
+    "props": {
+      "text": "Unifica",
+      "blockClass": "about-seccion-0-item"
+    }
+  },
+   "rich-text#about-seccion-0-5": {
+    "props": {
+      "text": "Repara",
+      "blockClass": "about-seccion-0-item"
+    }
+  },
+
+
+
+  "image#about-s0-1": {
+    "props": {
+      "src": "/arquivos/about-s0-001.png",
+      "blockClass":"about-s0-item"
+    }
+  },
+  "image#about-s0-2": {
+    "props": {
+      "src": "/arquivos/about-s0-2.png",
+      "blockClass":"about-s0-item"
+    }
+  },
+  "image#about-s0-3": {
+    "props": {
+      "src": "/arquivos/about-s0-3.png",
+      "blockClass":"about-s0-item"
+    }
+  },
+  "image#about-bg": {
+    "props": {
+      "src": "/arquivos/about-bg.png",
+      "blockClass":"about-bg"
+    }
+  },
+  "image#about-bg-m": {
+    "props": {
+      "src": "/arquivos/about-bg-m.png",
+      "blockClass":"about-bg"
+    }
+  }
+}

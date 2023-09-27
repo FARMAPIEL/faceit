@@ -1,0 +1,31 @@
+{
+  "store.custom#about-us": {
+    "path": "/about"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+  "store.custom#contact-us": {
+    "path": "/contact-us"
+  },
+  
+    "store.custom#terminos-y-condiciones": {
+    "path": "/terminos-y-condiciones"
+  },
+  
+   "store.custom#landing-v2": {
+    "path": "/kit-faceit"
+  },
+  "store.custom#landing-v1": {
+    "path": "/landing1"
+  },
+   "store.custom#aviso-de-privacidad": {
+    "path": "/aviso-de-privacidad"
+  },
+"store.custom#politicas-de-envio": {
+    "path": "/politicas-de-envio"
+  },
+  "store.custom#landing-v3": {
+    "path": "/landing3"
+  }
+}

@@ -1,0 +1,67 @@
+{
+   "flex-layout.row#s8": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"s8"
+    },
+    "children": [
+       "image#s8",
+      "flex-layout.col#s8-textos"
+    ]
+  },
+   "image#s8": {
+    "props": {
+      "src": "/arquivos/sseccion_8.png",
+      "blockClass":"s8"
+    }
+  },
+
+  "flex-layout.col#s8-textos": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"s8"
+    },
+    "children": [
+      "rich-text#s8-titulo",
+      "rich-text#s8-descripcion",
+      "link#s8"
+    ]
+  },
+   "rich-text#s8-titulo": {
+    "props": {
+      "text": "¡Haz el test!",
+      "blockClass": "s8-titulo"
+    }
+  },
+   "rich-text#s8-descripcion": {
+    "props": {
+      "text": "Conoce tu tipo de acné y encuentra tu rutina ideal.\n¡Adiós granitos, hola selfies sin filtro!",
+      "blockClass": "s8-descripcion"
+    }
+  },
+  "link#s8": {
+    "props": {
+      "target": "_blank",
+      "href": "https://faceitacne.typeform.com/to/XwPkqD47?typeform-source=app.clickup.com",
+      "label": "Hacer test 🧐",
+      "blockClass":"s8"
+    }
+  },
+
+
+
+  "info-card#s8": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "arquivos/sseccion_8.png",
+      "headline": "¡Haz el test!",
+      "subhead" : "Conoce tu tipo de acné y encuentra tu rutina ideal.\n¡Adiós granitos, hola selfies sin filtro!**",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/",
+      "blockClass": "s8",
+      "textAlignment": "center"
+    }
+  }
+}

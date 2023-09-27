@@ -1,0 +1,128 @@
+{
+   "flex-layout.row#s1": {
+    "props": {
+
+      "blockClass":"s1"
+    },
+    "children": [
+      "flex-layout.col#s1-img1",
+      "flex-layout.col#s1-textos",
+      "flex-layout.col#s1-img2"
+    ]
+  },
+  "flex-layout.col#s1-img1": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"s1-img"
+    },
+    "children": [
+      "link#s1-1",
+      "responsive-layout.desktop#s1-1",
+      "responsive-layout.tablet#s1-1",
+      "responsive-layout.mobile#s1-1"
+    ]
+  },
+  "image#s1-img1": {
+    "props": {
+      "src": "arquivos/s1-1.png",
+      "blockClass":"s1-img1"
+    }
+  },
+  "image#s1-img1-m": {
+    "props": {
+      "src": "arquivos/s1-1-0m.png",
+      "blockClass":"s1-img1"
+    }
+  },
+  "link#s1-1": {
+    "props": {
+      "href": "#testimonios",
+      "label": "Antes",
+      "blockClass":"s1-link"
+    }
+  },
+
+   "flex-layout.col#s1-textos": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"s1-textos"
+    },
+    "children": [
+      "rich-text#s1-1",
+      "rich-text#s1-2",
+      "rich-text#s1-3"
+    ]
+  },
+  "rich-text#s1-1": {
+    "props": {
+      "text": "Faceit",
+      "textPosition": "CENTER",
+      "blockClass": "s1-1"
+    }
+  },
+  "rich-text#s1-2": {
+    "props": {
+      "text": "¡Adiós granitos, hola selfies sin filtro!",
+      "textPosition": "CENTER",
+      "blockClass": "s1-2"
+    }
+  },
+  "rich-text#s1-3": {
+    "props": {
+      "text": "✨Solo 3 pasos para alcanzar la piel de tus sueños✨",
+      "textPosition": "CENTER",
+      "blockClass": "s1-3"
+    }
+  },
+   "flex-layout.col#s1-img2": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"s1-img"
+    },
+    "children": [
+      "link#s1-2",
+      "responsive-layout.desktop#s1-2",
+      "responsive-layout.tablet#s1-2",
+      "responsive-layout.mobile#s1-2"
+    ]
+  },
+   "link#s1-2": {
+    "props": {
+      "href": "#testimonios",
+      "label": "Glow Up",
+      "blockClass":"s1-link"
+    }
+  },
+  "image#s1-img2": {
+    "props": {
+      "src": "arquivos/s1-2.png",
+      "blockClass":"s1-img2"
+    }
+  },
+   "image#s1-img2-m": {
+    "props": {
+      "src": "arquivos/s1-2-m.png",
+      "blockClass":"s1-img2"
+    }
+  },
+
+
+  "responsive-layout.desktop#s1-1": {
+    "children": ["image#s1-img1"]
+  },
+  "responsive-layout.tablet#s1-1": {
+    "children": ["image#s1-img1"]
+  },
+  "responsive-layout.mobile#s1-1": {
+    "children": ["image#s1-img1-m"]
+  },
+   "responsive-layout.desktop#s1-2": {
+    "children": ["image#s1-img2"]
+  },
+  "responsive-layout.tablet#s1-2": {
+    "children": ["image#s1-img2"]
+  },
+  "responsive-layout.mobile#s1-2": {
+    "children": ["image#s1-img2-m"]
+  }
+}

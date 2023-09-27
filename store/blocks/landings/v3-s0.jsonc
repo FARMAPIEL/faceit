@@ -1,0 +1,83 @@
+{
+    "responsive-layout.desktop#landing3-seccion-0": {
+     "children": ["flex-layout.row#landing3-seccion-0"]
+   },
+   "responsive-layout.tablet#landing3-seccion-0": {
+     "children": ["flex-layout.row#landing3-seccion-0"]
+   },
+   "responsive-layout.mobile#landing3-seccion-0": {
+     "children": ["flex-layout.row#landing3-seccion-0-m"]
+   },
+
+
+   "flex-layout.row#landing3-seccion-0": {
+     "props": {
+       "colSizing": "auto",
+       "blockClass":"about-seccion-0"
+     },
+     "children": [
+
+       "flex-layout.col#landing3-seccion-0",
+       "image#about-bg"
+     ]
+   },
+
+
+   "flex-layout.row#landing3-seccion-0-m": {
+     "props": {
+       "colSizing": "auto",
+       "blockClass":"about-seccion-0"
+     },
+     "children": [
+
+       "flex-layout.col#landing3-seccion-0",
+       "image#about-bg-m"
+     ]
+   },
+
+   "flex-layout.col#landing3-seccion-0": {
+     "props": {
+       "preventVerticalStretch": true,
+       "blockClass":"about-seccion-0"
+     },
+     "children": [
+       "image#about-logo",
+       "rich-text#landing3-seccion-0-1",
+       "flex-layout.row#landing1-seccion-0-items",
+       "link#s7",
+       "rich-text#landing3-seccion-0-2"
+     ]
+   },
+
+    "rich-text#landing3-seccion-0-1": {
+     "props": {
+       "text": "Una piel sana no tiene\nporque ser perfecta 3",
+       "textPosition": "CENTER",
+       "blockClass": "about-seccion-0-1"
+     }
+   },
+    "rich-text#landing3-seccion-0-2": {
+     "props": {
+       "text": "✨Solo 3 pasos para alcanzar la piel de tus sueños✨",
+        "textPosition": "CENTER",
+       "blockClass": "about-seccion-0-2"
+     }
+   },
+
+   "flex-layout.row#landing3-seccion-0-items": {
+     "props": {
+       "colSizing": "auto",
+       "preserveLayoutOnMobile": true,
+       "blockClass":"about-seccion-0-items"
+     },
+     "children": [
+       "image#about-s0-1",
+       "rich-text#about-seccion-0-3",
+       "image#about-s0-2",
+       "rich-text#about-seccion-0-4",
+       "image#about-s0-3",
+       "rich-text#about-seccion-0-5"
+
+     ]
+   }
+}

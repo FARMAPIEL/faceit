@@ -1,0 +1,112 @@
+{
+   "flex-layout.row#p-s2-p3": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"p-s2"
+    },
+    "children": [
+     "flex-layout.col#p-s2-p3"
+    ]
+  },
+  "flex-layout.col#p-s2-p3": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s2"
+    },
+    "children": [
+       "rich-text#p-s2-p3-titulo",
+       "flex-layout.row#p-s2-p3-textos"
+    ]
+  },
+   "rich-text#p-s2-p3-titulo": {
+    "props": {
+      "text": "Dile adiós a los granos y espinillas\n**con 1 ingrediente activo**",
+      "textPosition": "CENTER",
+      "blockClass": "p123-s2-titulo"
+    }
+  },
+   "flex-layout.row#p-s2-p3-textos": {
+    "props": {
+      "colSizing": "equal",
+      "blockClass":"p-s2-textos"
+    },
+    "children": [
+     "flex-layout.col#p-s2-p3-texto1",
+     "flex-layout.col#p-s2-p3-texto2",
+     "flex-layout.col#p-s2-p3-texto3"
+    ]
+  },
+
+
+  "flex-layout.col#p-s2-p3-texto1": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s2-texto-contenedor"
+    },
+    "children": [
+      "rich-text#p-s2-p3-texto1-titulo",
+      "rich-text#p-s2-p3-texto1-descripcion",
+      "image#p-s1-1"
+    ]
+  },
+   "rich-text#p-s2-p3-texto1-titulo": {
+    "props": {
+      "text": "✔️ Antibacterial",
+      "blockClass": "p-s2-textos-titulo"
+    }
+  },
+  "rich-text#p-s2-p3-texto1-descripcion": {
+    "props": {
+      "text": "¡Elimina las bacterias que causan los  granos y espinillas! reduce la inflamación y contribuye a destapar tus poros para evitar que aparezcan más brotes.",
+      "blockClass": "p-s2-textos-descripcion"
+    }
+  },
+  "flex-layout.col#p-s2-p3-texto2": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s2-texto-contenedor"
+    },
+    "children": [
+
+      "rich-text#p-s2-p3-texto2-titulo",
+      "rich-text#p-s2-p3-texto2-descripcion",
+       "image#p-s1-2"
+    ]
+  },
+   "rich-text#p-s2-p3-texto2-titulo": {
+    "props": {
+      "text": "✨ Antiinflamatorio",
+      "blockClass": "p-s2-textos-titulo"
+    }
+  },
+  "rich-text#p-s2-p3-texto2-descripcion": {
+    "props": {
+      "text": "Este poderoso ingrediente ayuda a reducir la inflamación asociada con los brotes, calma la piel y promueve una apariencia más suave y equilibrada.\nCon el peróxido de benzoílo, puedes enfrentar el acné desde todos los ángulos.",
+      "blockClass": "p-s2-textos-descripcion"
+    }
+  },
+  "flex-layout.col#p-s2-p3-texto3": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s2-texto-contenedor"
+    },
+    "children": [
+
+      "rich-text#p-s2-p3-texto3-titulo",
+      "rich-text#p-s2-p3-texto3-descripcion",
+       "image#p-s1-3"
+    ]
+  },
+   "rich-text#p-s2-p3-texto3-titulo": {
+    "props": {
+      "text": "💦 Secante",
+      "blockClass": "p-s2-textos-titulo"
+    }
+  },
+  "rich-text#p-s2-p3-texto3-descripcion": {
+    "props": {
+      "text": "Seca tus granitos y espinillas, reduce la producción de sebo en la piel y el tamaño de los brotes.\n¡Tu piel te lo agradecerá!\n\n",
+      "blockClass": "p-s2-textos-descripcion"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+   "flex-layout.row#p-s1-p3": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"p-s1"
+    },
+    "children": [
+      "flex-layout.col#p-s1-p3",
+      "image#p-s1-p3"
+    ]
+  },
+  "flex-layout.col#p-s1-p3": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s1"
+    },
+    "children": [
+       "rich-text#p-s1-p3-1",
+       "rich-text#p-s1-p3-2",
+       "rich-text#p-s1-p3-3",
+       "rich-text#p-s1-p3-4",
+       "rich-text#p-s1-p3-5",
+       "rich-text#p-s1-p3-6",
+       "rich-text#p-s1-p3-7"
+    ]
+  },
+  "rich-text#p-s1-p3-1": {
+    "props": {
+      "text": "Dale a tu piel el\n**poder de brillar**",
+      "blockClass": "p3-s1-titulo"
+    }
+  },
+  "rich-text#p-s1-p3-2": {
+    "props": {
+      "text": "",
+      "blockClass": "p-s1-subtitulo"
+    }
+  },
+  "rich-text#p-s1-p3-3": {
+    "props": {
+      "text": "En primer lugar, ayuda a eliminar las bacterias en pieles acneicas, al penetrar en los poros obstruidos y combatir la proliferación de bacterias en la piel, esto reduce la inflamación y el enrojecimiento en tu carita producidas por los granitos y espinillas.",
+      "blockClass": "p123-s1-descripcion"
+    }
+  },
+  "rich-text#p-s1-p3-4": {
+    "props": {
+      "text": "",
+      "blockClass": "p-s1-subtitulo"
+    }
+  },
+  "rich-text#p-s1-p3-5": {
+    "props": {
+      "text": "Además, el peróxido de benzoílo ayuda a eliminar el exceso de grasa y células muertas en tu piel, desobstruye los poros y previniene la formación de nuevos brotes. También reduce la producción de sebo, uno de los factores que contribuyen al desarrollo del granos y espinillas.",
+      "blockClass": "p123-s1-descripcion"
+    }
+  },
+  "rich-text#p-s1-p3-6": {
+    "props": {
+      "text": "",
+      "blockClass": "p-s1-subtitulo"
+    }
+  },
+  "rich-text#p-s1-p3-7": {
+    "props": {
+      "text": "Es recomendable utilizar este ingrediente activo junto con una rutina de cuidado adecuada para tu tipo de piel, incluye hidratación y protección solar para brindarle el mejor cuidado a tu carita.",
+      "blockClass": "p123-s1-descripcion"
+    }
+  },
+
+
+
+   "image#p-s1-p3": {
+    "props": {
+      "src": "/arquivos/p-p3-s1.png",
+      "blockClass":"p-s1"
+    }
+  }
+}

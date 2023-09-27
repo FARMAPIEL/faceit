@@ -1,0 +1,94 @@
+{
+  "vtex.menu@2.x:menu#Products": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#productos-titulo",
+      "menu-item#productos-1",
+      "menu-item#productos-2",
+      "menu-item#productos-3",
+      "menu-item#productos-4"
+    ]
+  },
+  "menu-item#productos-titulo": {
+    "props": {
+      "highlight" : false,
+      "id": "productos-titulo",
+      "type": "custom",
+      "blockClass": "menu-header",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Productos",
+        "text": "Productos"
+      }
+    }
+  },
+  "menu-item#productos-1": {
+    "props": {
+      "id": "productos-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/FACEIT-Rutina-de-3-Pasos-Antiacne/p",
+        "noFollow": false,
+        "tagTitle": "Kit FACEIT",
+        "text": "Kit FACEIT"
+      }
+    }
+  },
+  "menu-item#productos-2": {
+    "props": {
+      "id": "productos-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/FACEIT-Paso1-Dermolimpiador-facial-con-aceite-del-arbol-de-te/p",
+        "noFollow": false,
+        "tagTitle": "Dermolimpiador",
+        "text": "Dermolimpiador"
+      }
+    }
+  },
+  "menu-item#productos-3": {
+    "props": {
+      "id": "productos-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/FACEIT-Paso-2-tonico-facial-astringente-con-acido-glicolico/p",
+        "noFollow": false,
+        "tagTitle": "Tónico Facial",
+        "text": "Tónico Facial"
+      }
+    }
+  },
+  "menu-item#productos-4": {
+    "props": {
+      "id": "productos-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/FACEIT-Paso-3-Gel-reparador-de-granos-faciales-localizados/p",
+        "noFollow": false,
+        "tagTitle": "Gel Peróxido",
+        "text": "Gel Peróxido"
+      }
+    }
+  }
+
+}

@@ -1,0 +1,74 @@
+{
+  "flex-layout.row#landing2-seccion-0": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"landing2-seccion-0"
+    },
+    "children": [
+      "flex-layout.col#landing2-seccion-0",
+      "image#landing2-seccion-0"
+    ]
+  },
+  "flex-layout.col#landing2-seccion-0": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"landing2-seccion-0"
+    },
+    "children": [
+      "logo#desktop",
+      "rich-text#landing2-seccion-0",
+      "flex-layout.row#landing2-seccion-0-items",
+      "link#s7",
+      "rich-text#s1-3"
+    ]
+  },
+   "rich-text#landing2-seccion-0": {
+    "props": {
+      "text": "Una piel sana no tiene\nporque **ser perfecta**",
+      "blockClass": "landing2-seccion-0"
+    }
+  },
+   "flex-layout.row#landing2-seccion-0-items": {
+    "props": {
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass":"about-seccion-0-items"
+    },
+    "children": [
+       "image#landing2-seccion-0-1",
+      "rich-text#about-seccion-0-3",
+       "image#landing2-seccion-0-2",
+      "rich-text#about-seccion-0-4",
+       "image#landing2-seccion-0-3",
+      "rich-text#about-seccion-0-5"
+
+    ]
+  },
+   "image#landing2-seccion-0-1": {
+    "props": {
+      "src": "/arquivos/landing2-seccion-0-1.png",
+      "blockClass":"about-s0-item"
+    }
+  },
+  "image#landing2-seccion-0-2": {
+    "props": {
+      "src": "/arquivos/landing2-seccion-0-2.png",
+      "blockClass":"about-s0-item"
+    }
+  },
+  "image#landing2-seccion-0-3": {
+    "props": {
+      "src": "/arquivos/landing2-seccion-0-3.png",
+      "blockClass":"about-s0-item"
+    }
+  },
+
+
+
+   "image#landing2-seccion-0": {
+    "props": {
+      "src": "/arquivos/landing2-seccion-00.png",
+      "blockClass":"landing2-seccion-0"
+    }
+  }
+}

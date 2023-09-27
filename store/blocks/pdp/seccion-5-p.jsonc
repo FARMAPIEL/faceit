@@ -1,0 +1,391 @@
+{
+   "flex-layout.row#p-s5": {
+    "props": {
+      "colSizing": "auto",
+      "htmlId" : "faq",
+      "blockClass":"p-s5"
+    },
+    "children": [
+      "flex-layout.col#p-s5"
+    ]
+  },
+  "flex-layout.col#p-s5": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s5"
+    },
+    "children": [
+      "rich-text#p-s5-titulo",
+      "rich-text#p-s5-subtitulo",
+      //"disclosure-layout-group#group",
+      "menu-item#s5-5",
+      "menu-item#s5-1",
+      "menu-item#s5-2",
+      "menu-item#s5-3",
+      "menu-item#s5-4"
+      
+    ]
+  },
+  "rich-text#p-s5-titulo": {
+    "props": {
+      "text": "FAQ",
+      "textPosition": "CENTER",
+      "blockClass": "p-s5-titulo"
+    }
+  },
+   "rich-text#p-s5-subtitulo": {
+    "props": {
+      "text": "Los dermatólogos te responden",
+      "textPosition": "CENTER",
+      "blockClass": "p-s5-subtitulo"
+    }
+  },
+
+  "disclosure-layout-group#group": {
+    "children": [
+      "disclosure-layout#fifth",
+      "disclosure-layout#first",
+      "disclosure-layout#second",
+      "disclosure-layout#third",
+      "disclosure-layout#fourth"
+      
+    ]
+  },
+
+  "disclosure-layout#first": {
+    "children": ["disclosure-trigger#first", "disclosure-content#first"]
+  },
+  "disclosure-trigger#first": {
+    "children": ["rich-text#question1"]
+  },
+  "disclosure-content#first": {
+    "children": ["rich-text#answer1"]
+  },
+  "rich-text#question1": {
+    "props": {
+      "text": "¿Puedo usar FACEIT si sufro de acné severo?",
+      "blockClass" : "s5-pregunta"
+    }
+  },
+  "rich-text#answer1": {
+    "props": {
+      "text": "No te estreses😵‍💫 si tienes una situación crítica con tu acné, es mejor que visites a un dermatólogo👩‍⚕️👨‍⚕️.",
+      "blockClass" : "s5-respuesta"
+    }
+  },
+
+  "disclosure-layout#second": {
+    "children": ["disclosure-trigger#second", "disclosure-content#second"]
+  },
+  "disclosure-trigger#second": {
+    "children": ["rich-text#question2"]
+  },
+  "disclosure-content#second": {
+    "children": ["rich-text#answer2"]
+  },
+  "rich-text#question2": {
+    "props": {
+      "text": "¿Me pueden salir granos y espinillas después de usar FACEIT?",
+      "blockClass" : "s5-pregunta"
+    }
+  },
+  "rich-text#answer2": {
+    "props": {
+      "text": "Si, recuerda que el sistema ataca el problema desde dentro y hace una limpieza profunda, por lo que saca los brotes que estaban bajo la piel, las pieles grasas son más propensas a experimentarlo. Los procesos hormonales también pueden contribuir a la aparición de brotes.",
+      "blockClass" : "s5-respuesta"
+    }
+  },
+   "disclosure-layout#third": {
+    "children": ["disclosure-trigger#third", "disclosure-content#third"]
+  },
+  "disclosure-trigger#third": {
+    "children": ["rich-text#question3"]
+  },
+  "disclosure-content#third": {
+    "children": ["rich-text#answer3"]
+  },
+  "rich-text#question3": {
+    "props": {
+      "text": "¿Es bueno exprimir/drenar mis barritos y espinillas?",
+      "blockClass" : "s5-pregunta"
+    }
+  },
+  "rich-text#answer3": {
+    "props": {
+      "text": "🚫 ¡NO exprimes tus granitos! exprimir tus granitos puede dejar marcas en tu piel, puede hacer que los brotes se contaminen haciendo más difícil que desaparezcan, puedes provocar que partes más extensas de tu piel se infecten y aparezcan brotes nuevos.",
+      "blockClass" : "s5-respuesta"
+    }
+  },
+   "disclosure-layout#fourth": {
+    "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
+  },
+  "disclosure-trigger#fourth": {
+    "children": ["rich-text#question4"]
+  },
+  "disclosure-content#fourth": {
+    "children": ["rich-text#answer4"]
+  },
+  "rich-text#question4": {
+    "props": {
+      "text": "¿Para quién NO es FACEIT?",
+      "blockClass" : "s5-pregunta"
+    }
+  },
+  "rich-text#answer4": {
+    "props": {
+      "text": "Personas embarazadas o lacatando, personas con condiciones de la piel como eczema, psoriasis o rosácea, personas que desean eliminar cicatrices del acné, personas coon acné severo, personas que desean eliminar acné corporal, personas en tratamiento de retinoides o antibióticos para el acné.",
+      "blockClass" : "s5-respuesta"
+    }
+  },
+   "disclosure-layout#fifth": {
+    "children": ["disclosure-trigger#fifth", "disclosure-content#fifth"]
+  },
+  "disclosure-trigger#fifth": {
+    "children": ["rich-text#question5"]
+  },
+  "disclosure-content#fifth": {
+    "children": ["rich-text#answer5"]
+  },
+  "rich-text#question5": {
+    "props": {
+      "text": "¿Que es FACEIT?",
+      "blockClass" : "s5-pregunta"
+    }
+  },
+  "rich-text#answer5": {
+    "props": {
+      "text": "Faceit es un sistema anti-acné, fabricado y comercializado por Farmapiel, líderes en productos dermatológicos con más de 30 años de experiencia en México. Faceit es un sistema anti-acné, fabricado, empacado y comercializado por CENTRO INTERNACIONAL DE COSMIATRÍA (FARMAPIEL). El peroxido de Benzoilo cuenta con el registro sanitario: 160M2016",
+      "blockClass" : "s5-respuesta"
+    }
+  },
+
+
+  "menu-item#s5-1": {
+    "props": {
+      "id": "menu-item-s5",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "s5-mi-pregunta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "¿Puedo usar FACEIT si sufro de acné severo?",
+        "text": "¿Puedo usar FACEIT si sufro de acné severo?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#s5-1"]
+  },
+   "vtex.menu@2.x:submenu.accordion#s5-1": {
+    "children": ["vtex.menu@2.x:menu#s5-accordion-1"]
+  },
+  "vtex.menu@2.x:menu#s5-accordion-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mi-s5-1"
+    ]
+  },
+   "menu-item#mi-s5-1": {
+    "props": {
+      "highlight" : false,
+      "id": "mi-s5-1",
+      "type": "custom",
+      "blockClass": "s5-mi-respuesta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "No te estreses😵‍💫 si tienes una situación crítica con tu acné, es mejor que visites a un dermatólogo👩‍⚕️👨‍⚕️.",
+        "text": "No te estreses😵‍💫 si tienes una situación crítica con tu acné, es mejor que visites a un dermatólogo👩‍⚕️👨‍⚕️."
+      }
+    }
+  },
+
+  "menu-item#s5-2": {
+    "props": {
+      "id": "menu-item-s2",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "s5-mi-pregunta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "¿Me pueden salir granos y espinillas después de usar FACEIT?",
+        "text": "¿Me pueden salir granos y espinillas después de usar FACEIT?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#s5-2"]
+  },
+   "vtex.menu@2.x:submenu.accordion#s5-2": {
+    "props":{
+      "blockClass" : "s5"
+    },
+    "children": ["vtex.menu@2.x:menu#s5-accordion-2"]
+  },
+  "vtex.menu@2.x:menu#s5-accordion-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mi-s5-2"
+    ]
+  },
+   "menu-item#mi-s5-2": {
+    "props": {
+      "highlight" : false,
+      "id": "mi-s5-2",
+      "type": "custom",
+      "blockClass": "s5-mi-respuesta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Si, recuerda que el sistema ataca el problema desde dentro y hace una limpieza profunda, por lo que saca los brotes que estaban bajo la piel, las pieles grasas son más propensas a experimentarlo. Los procesos hormonales también pueden contribuir a la aparición de brotes.",
+        "text": "Si, recuerda que el sistema ataca el problema desde dentro y hace una limpieza profunda, por lo que saca los brotes que estaban bajo la piel, las pieles grasas son más propensas a experimentarlo. Los procesos hormonales también pueden contribuir a la aparición de brotes."
+      }
+    }
+  },
+
+  "menu-item#s5-3": {
+    "props": {
+      "id": "menu-item-s3",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "s5-mi-pregunta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "¿Es bueno exprimir/drenar mis barritos y espinillas?",
+        "text": "¿Es bueno exprimir/drenar mis barritos y espinillas?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#s5-3"]
+  },
+   "vtex.menu@2.x:submenu.accordion#s5-3": {
+    "props":{
+      "blockClass" : "s5"
+    },
+    "children": ["vtex.menu@2.x:menu#s5-accordion-3"]
+  },
+  "vtex.menu@2.x:menu#s5-accordion-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mi-s5-3"
+    ]
+  },
+   "menu-item#mi-s5-3": {
+    "props": {
+      "highlight" : false,
+      "id": "mi-s5-3",
+      "type": "custom",
+      "blockClass": "s5-mi-respuesta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "🚫 ¡NO exprimes tus granitos! exprimir tus granitos puede dejar marcas en tu piel, puede hacer que los brotes se contaminen haciendo más difícil que desaparezcan, puedes provocar que partes más extensas de tu piel se infecten y aparezcan brotes nuevos.",
+        "text": "🚫 ¡NO exprimes tus granitos! exprimir tus granitos puede dejar marcas en tu piel, puede hacer que los brotes se contaminen haciendo más difícil que desaparezcan, puedes provocar que partes más extensas de tu piel se infecten y aparezcan brotes nuevos."
+      }
+    }
+  },
+
+
+  "menu-item#s5-4": {
+    "props": {
+      "id": "menu-item-s4",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "s5-mi-pregunta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "¿Para quién NO es FACEIT?",
+        "text": "¿Para quién NO es FACEIT?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#s5-4"]
+  },
+   "vtex.menu@2.x:submenu.accordion#s5-4": {
+    "props":{
+      "blockClass" : "s5"
+    },
+    "children": ["vtex.menu@2.x:menu#s5-accordion-4"]
+  },
+  "vtex.menu@2.x:menu#s5-accordion-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mi-s5-4"
+    ]
+  },
+   "menu-item#mi-s5-4": {
+    "props": {
+      "highlight" : false,
+      "id": "mi-s5-4",
+      "type": "custom",
+      "blockClass": "s5-mi-respuesta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Personas embarazadas o lacatando, personas con condiciones de la piel como eczema, psoriasis o rosácea, personas que desean eliminar cicatrices del acné, personas coon acné severo, personas que desean eliminar acné corporal, personas en tratamiento de retinoides o antibióticos para el acné.",
+        "text": "Personas embarazadas o lacatando, personas con condiciones de la piel como eczema, psoriasis o rosácea, personas que desean eliminar cicatrices del acné, personas coon acné severo, personas que desean eliminar acné corporal, personas en tratamiento de retinoides o antibióticos para el acné."
+      }
+    }
+  },
+  "menu-item#s5-5": {
+    "props": {
+      "id": "menu-item-s5",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "s5-mi-pregunta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "¿Que es FACEIT?",
+        "text": "¿Que es FACEIT?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#s5-5"]
+  },
+   "vtex.menu@2.x:submenu.accordion#s5-5": {
+    "props":{
+      "blockClass" : "s5"
+    },
+    "children": ["vtex.menu@2.x:menu#s5-accordion-5"]
+  },
+  "vtex.menu@2.x:menu#s5-accordion-5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mi-s5-5"
+    ]
+  },
+   "menu-item#mi-s5-5": {
+    "props": {
+      "highlight" : false,
+      "id": "mi-s5-5",
+      "type": "custom",
+      "blockClass": "s5-mi-respuesta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Faceit es un sistema anti-acné, fabricado y comercializado por Farmapiel, líderes en productos dermatológicos con más de 30 años de experiencia en México. Faceit es un sistema anti-acné, fabricado, empacado y comercializado por CENTRO INTERNACIONAL DE COSMIATRÍA (FARMAPIEL). El peroxido de Benzoilo cuenta con el registro sanitario: 160M2016",
+        "text": "Faceit es un sistema anti-acné, fabricado y comercializado por Farmapiel, líderes en productos dermatológicos con más de 30 años de experiencia en México. Faceit es un sistema anti-acné, fabricado, empacado y comercializado por CENTRO INTERNACIONAL DE COSMIATRÍA (FARMAPIEL). El peroxido de Benzoilo cuenta con el registro sanitario: 160M2016"
+      }
+    }
+  }
+
+
+}

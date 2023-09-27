@@ -1,0 +1,279 @@
+{
+  "flex-layout.row#s2": {
+    "props": {
+      "htmlId" : "productos",
+      "blockClass":"s2"
+    },
+    "children": [
+      "flex-layout.col#s2"
+    ]
+  },
+  "flex-layout.col#s2": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"s2"
+    },
+    "children": [
+      "rich-text#s2-titulo",
+      "rich-text#s2-subtitulo",
+      "flex-layout.row#s2-f1",
+      "flex-layout.row#s2-f2",
+      "link#s2"
+    ]
+  },
+  "rich-text#s2-titulo": {
+    "props": {
+      "text": "Piel **sana**, bonita y sin acné",
+      "textPosition": "CENTER",
+      "blockClass": "s2-titulo"
+    }
+  },
+
+  "rich-text#s2-subtitulo": {
+    "props": {
+      "text": "Una piel libre de acné, empieza aquí",
+      "textPosition": "CENTER",
+      "blockClass": "s2-subtitulo"
+    }
+  },
+  "flex-layout.row#s2-f1": {
+    "props": {
+      "blockClass":"s2-f1"
+    },
+    "children": [
+      "flex-layout.col#s2-f1-1",
+      "flex-layout.col#s2-f1-2",
+      "flex-layout.col#s2-f1-3"
+    ]
+  },
+   "image#s2-f1-1": {
+    "props": {
+      "src": "/arquivos/s2-f1-1.png",
+      "blockClass":"s2-f1-img"
+    }
+  },
+  "image#s2-f1-2": {
+    "props": {
+      "src": "/arquivos/s2-f1-2.png",
+      "blockClass":"s2-f1-img"
+    }
+  },
+  "image#s2-f1-3": {
+    "props": {
+      "src": "/arquivos/s2-f1-3.png",
+      "blockClass":"s2-f1-img"
+    }
+  },
+
+
+  "flex-layout.col#s2-f1-1": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"s2-f1-item"
+    },
+    "children": [
+      "image#s2-f1-1",
+      "rich-text#s2-f1-1-titulo",
+      "rich-text#s2-f1-1-descripcion"
+
+    ]
+  },
+  "rich-text#s2-f1-1-titulo": {
+    "props": {
+      "text": "Limpia",
+      "textPosition": "CENTER",
+      "blockClass": "s2-f1-item-titulo"
+    }
+  },
+  "rich-text#s2-f1-1-descripcion": {
+    "props": {
+      "text": "Haz que tu piel ✨brille✨ como nunca antes. Deshazte de las bacterias que causan el acné, reduce la inflamación y controla la producción de cebo.",
+      "textPosition": "CENTER",
+      "blockClass": "s2-f1-item-descripcion"
+    }
+  },
+  "flex-layout.col#s2-f1-2": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"s2-f1-item"
+    },
+    "children": [
+      "image#s2-f1-2",
+      "rich-text#s2-f1-2-titulo",
+      "rich-text#s2-f1-2-descripcion"
+    ]
+  },
+  "rich-text#s2-f1-2-titulo": {
+    "props": {
+      "text": "Unifica",
+      "textPosition": "CENTER",
+      "blockClass": "s2-f1-item-titulo"
+    }
+  },
+  "rich-text#s2-f1-2-descripcion": {
+    "props": {
+      "text": "Dale a tu piel un makeover con una micro-exfoliación que deja tu piel fresca y con tono uniforme. Efecto astringente para decir adiós a los brillos no deseados.",
+      "textPosition": "CENTER",
+      "blockClass": "s2-f1-item-descripcion"
+    }
+  },
+  "flex-layout.col#s2-f1-3": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"s2-f1-item"
+    },
+    "children": [
+      "image#s2-f1-3",
+      "rich-text#s2-f1-3-titulo",
+      "rich-text#s2-f1-3-descripcion"
+    ]
+  },
+  "rich-text#s2-f1-3-titulo": {
+    "props": {
+      "text": "Repara",
+      "textPosition": "CENTER",
+      "blockClass": "s2-f1-item-titulo"
+    }
+  },
+  "rich-text#s2-f1-3-descripcion": {
+    "props": {
+      "text": "El tercer paso es la solución final, repara tu piel, reduce, previene y seca granitos y espinillas.",
+      "textPosition": "CENTER",
+      "blockClass": "s2-f1-item-descripcion"
+    }
+  },
+  "flex-layout.row#s2-f2": {
+    "props": {
+      "blockClass":"s2-f2"
+    },
+    "children": [
+      "flex-layout.col#s2-f2-1",
+      "flex-layout.col#s2-f2-2",
+      "flex-layout.col#s2-f2-3"
+    ]
+  },
+  "flex-layout.col#s2-f2-1": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"s2-f2-item"
+    },
+    "children": [
+      "image#s2-f2-1",
+      "rich-text#s2-f2-1-titulo",
+      "rich-text#s2-f2-1-descripcion",
+      "link#f1"
+    ]
+  },
+  "image#s2-f2-1": {
+    "props": {
+      "src": "/arquivos/s2-f2-1.png",
+      "blockClass":"s2-f2-img"
+    }
+  },
+  "rich-text#s2-f2-1-titulo": {
+    "props": {
+      "text": "Paso 1",
+      "textPosition": "CENTER",
+      "blockClass": "s2-f2-item-titulo"
+    }
+  },
+  "rich-text#s2-f2-1-descripcion": {
+    "props": {
+      "text": "Dermolimpiador en espuma con aceite del árbol de té, deshazte del acné con su efecto limpiador, ¡adiós a la suciedad y el exceso de grasa!",
+      "textPosition": "CENTER",
+      "blockClass": "s2-f2-item-descripcion"
+    }
+  },
+   "flex-layout.col#s2-f2-2": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"s2-f2-item"
+    },
+    "children": [
+       "image#s2-f2-2",
+      "rich-text#s2-f2-2-titulo",
+      "rich-text#s2-f2-2-descripcion",
+      "link#f2"
+    ]
+  },
+  "image#s2-f2-2": {
+    "props": {
+      "src": "/arquivos/s2-f2-2.png",
+      "blockClass":"s2-f2-img"
+    }
+  },
+  "rich-text#s2-f2-2-titulo": {
+    "props": {
+      "text": "Paso 2",
+      "textPosition": "CENTER",
+      "blockClass": "s2-f2-item-titulo"
+    }
+  },
+  "rich-text#s2-f2-2-descripcion": {
+    "props": {
+      "text": "Tónico facial con ácido glicólico, di adiós a las impurezas, refresca tu piel mientras unifica su tono y textura. ¡Un must para tu rutina!",
+      "textPosition": "CENTER",
+      "blockClass": "s2-f2-item-descripcion"
+    }
+  },
+   "flex-layout.col#s2-f2-3": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"s2-f2-item"
+    },
+    "children": [
+      "image#s2-f2-3",
+      "rich-text#s2-f2-3-titulo",
+      "rich-text#s2-f2-3-descripcion",
+      "link#f3"
+    ]
+  },
+  "image#s2-f2-3": {
+    "props": {
+      "src": "/arquivos/s2-f2-3.png",
+      "blockClass":"s2-f2-img"
+    }
+  },
+  "rich-text#s2-f2-3-titulo": {
+    "props": {
+      "text": "Paso 3",
+      "textPosition": "CENTER",
+      "blockClass": "s2-f2-item-titulo"
+    }
+  },
+  "rich-text#s2-f2-3-descripcion": {
+    "props": {
+      "text": "Tratamiento en gel peróxido de benzoílo al 5%, deshazte de las espinillas. Ataca las bacterias, desobstruye los poros y seca los brotes. ¡Tu piel te lo agradecerá!",
+      "textPosition": "CENTER",
+      "blockClass": "s2-f2-item-descripcion"
+    }
+  },
+  "link#s2": {
+    "props": {
+      "href": "/FACEIT-Rutina-de-3-Pasos-Antiacne/p",
+      "label": "Comprar ahora 😎",
+      "blockClass":"s2"
+    }
+  },
+  "link#f1": {
+    "props": {
+      "href": "FACEIT-Paso1-Dermolimpiador-facial-con-aceite-del-arbol-de-te/p",
+      "label": "Ver más",
+      "blockClass":"s2"
+    }
+  },
+  "link#f2": {
+    "props": {
+      "href": "FACEIT-Paso-2-tonico-facial-astringente-con-acido-glicolico/p",
+      "label": "Ver más",
+      "blockClass":"ff"
+    }
+  },
+  "link#f3": {
+    "props": {
+      "href": "/FACEIT-Paso-3-Gel-reparador-de-granos-faciales-localizados/p",
+      "label": "Ver más",
+      "blockClass":"s2"
+    }
+  }
+}

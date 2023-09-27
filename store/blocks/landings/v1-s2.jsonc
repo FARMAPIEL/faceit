@@ -1,0 +1,95 @@
+{
+  "flex-layout.row#v2-s2": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"p-s2"
+    },
+    "children": [
+     "flex-layout.col#v2-s2"
+    ]
+  },
+  "flex-layout.col#v2-s2": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s2"
+    },
+    "children": [
+       "rich-text#v2-s2-titulo",
+       "flex-layout.row#v2-s2textos"
+    ]
+  },
+  "rich-text#v2-s2-titulo": {
+    "props": {
+      "text": "Ingredientes **para cuidar tu acné**",
+      "textPosition": "CENTER",
+      "blockClass": "v2-s2-titulo"
+    }
+  },
+   "flex-layout.row#v2-s2textos": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"v1-s2-textos"
+    },
+    "children": [
+     "flex-layout.col#v2-s2texto1",
+     "flex-layout.col#v2-s2texto2",
+     "flex-layout.col#v2-s2texto3"
+    ]
+  }
+  ,"flex-layout.col#v2-s2texto1": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s2-texto-contenedor"
+    },
+    "children": [
+      "image#v2-s2-1",
+      "rich-text#p-s2-kit-texto1-titulo",
+      "rich-text#p-s2-kit-texto1-descripcion"
+
+    ]
+  },
+
+  "flex-layout.col#v2-s2texto2": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s2-texto-contenedor"
+    },
+    "children": [
+      "image#v2-s2-2",
+      "rich-text#p-s2-kit-texto2-titulo",
+      "rich-text#p-s2-kit-texto2-descripcion"
+
+    ]
+  },
+
+  "flex-layout.col#v2-s2texto3": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s2-texto-contenedor"
+    },
+    "children": [
+      "image#v2-s2-3",
+      "rich-text#p-s2-kit-texto3-titulo",
+      "rich-text#p-s2-kit-texto3-descripcion"
+
+    ]
+  },
+  "image#v2-s2-1": {
+    "props": {
+      "src": "/arquivos/v2-s2-01.png",
+      "blockClass":"p-s1-1"
+    }
+  },
+   "image#v2-s2-2": {
+    "props": {
+      "src": "/arquivos/v2-s2-02.png",
+      "blockClass":"p-s1-1"
+    }
+  },
+   "image#v2-s2-3": {
+    "props": {
+      "src": "/arquivos/v2-s2-03.png",
+      "blockClass":"p-s1-1"
+    }
+  }
+}

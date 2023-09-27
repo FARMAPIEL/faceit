@@ -1,0 +1,140 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+
+      "menu-item#home",
+      "menu-item#Productos_Kit",
+      "menu-item#Productos_PasoUno",
+      "menu-item#Productos_PasoDos",
+      "menu-item#Productos_PasoTres",
+      "menu-item#about"
+      ,"image#icon-s2-f1-1"
+    ]
+  },
+  "menu-item#home": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "iconId": "nav-home",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Home",
+        "text": "Home"
+      },"blockClass":"Menucolor"
+    }
+  },
+  "menu-item#kit": {
+    "props": {
+      "id": "menu-item-kit",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kit-faceit",
+        "noFollow": false,
+        "tagTitle": "Kit FACEIT",
+        "text": "Kit FACEIT"
+      }
+    }
+  },"menu-item#about": {
+    "props": {
+      "id": "menu-item-about",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about",
+        "noFollow": false,
+        "tagTitle": "About",
+        "text": "About"
+      }
+    }
+  },
+  "menu-item#Productos_Kit": {
+    "props": {
+      "id": "menu-item-about",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/FACEIT-Rutina-de-3-Pasos-Antiacne/p",
+        "noFollow": false,
+        "tagTitle": "Kit FACEIT",
+        "text": "✨Kit FACEIT✨"
+      },"blockClass":"MenucolorKit"
+    }
+  },
+  "menu-item#Productos_PasoUno": {
+    "props": {
+      "id": "menu-item-about",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/FACEIT-Paso1-Dermolimpiador-facial-con-aceite-del-arbol-de-te/p",
+        "noFollow": false,
+        "tagTitle": "Dermolimpiador",
+        "text": "Dermolimpiador"
+      },"blockClass":"iconsMenu"
+    },"children": ["image#icon-s2-f1-1"]
+    
+  },
+  "menu-item#Productos_PasoDos": {
+    "props": {
+      "id": "menu-item-about",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/FACEIT-Paso-2-tonico-facial-astringente-con-acido-glicolico/p",
+        "noFollow": false,
+        "tagTitle": "Tónico Facial",
+        "text": "Tónico Facial"
+      },"blockClass":"iconsMenu"
+      },"children": ["image#icon-s2-f1-2"]
+  },
+  "menu-item#Productos_PasoTres": {
+    "props": {
+      "id": "menu-item-about",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/FACEIT-Paso-3-Gel-reparador-de-granos-faciales-localizados/p",
+        "noFollow": false,
+        "tagTitle": "Gel Peróxido",
+        "text": "Gel Peróxido"
+      },"blockClass":"iconsMenu"
+      },"children": ["image#icon-s2-f1-3"]
+  },
+  "image#icon-s2-f1-1": {
+    "props": {
+      "src": "/arquivos/s2-f1-1.png",
+      "blockClass":"iconsMenu"
+    }
+  },
+  "image#icon-s2-f1-2": {
+    "props": {
+      "src": "/arquivos/s2-f1-2.png",
+      "blockClass":"iconsMenu"
+    }
+  },
+  "image#icon-s2-f1-3": {
+    "props": {
+      "src": "/arquivos/s2-f1-3.png",
+      "blockClass":"iconsMenu"
+    }
+  }
+}

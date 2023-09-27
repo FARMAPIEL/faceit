@@ -1,0 +1,112 @@
+{
+   "flex-layout.row#p-s2-p1": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"p-s2"
+    },
+    "children": [
+     "flex-layout.col#p-s2-p1"
+    ]
+  },
+  "flex-layout.col#p-s2-p1": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s2"
+    },
+    "children": [
+       "rich-text#p-s2-p1-titulo",
+       "flex-layout.row#p-s2-p1-textos"
+    ]
+  },
+   "rich-text#p-s2-p1-titulo": {
+    "props": {
+      "text": "**TOP ingredientes naturales**\ny emergentes que cuidan tu acné",
+      "textPosition": "CENTER",
+      "blockClass": "p1-s2-titulo"
+    }
+  },
+   "flex-layout.row#p-s2-p1-textos": {
+    "props": {
+      "colSizing": "equal",
+      "blockClass":"p-s2-textos"
+    },
+    "children": [
+     "flex-layout.col#p-s2-p1-texto1",
+     "flex-layout.col#p-s2-p1-texto2",
+     "flex-layout.col#p-s2-p1-texto3"
+    ]
+  },
+
+
+  "flex-layout.col#p-s2-p1-texto1": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s2-texto-contenedor"
+    },
+    "children": [
+      "rich-text#p-s2-p1-texto1-titulo",
+      "rich-text#p-s2-p1-texto1-descripcion",
+      "image#p-s1-1"
+    ]
+  },
+   "rich-text#p-s2-p1-texto1-titulo": {
+    "props": {
+      "text": "✔️ Aceite del árbol de té",
+      "blockClass": "p-s2-textos-titulo"
+    }
+  },
+  "rich-text#p-s2-p1-texto1-descripcion": {
+    "props": {
+      "text": "Aceite esencial con propiedades antimicrobianas, antiinflamatorias y cicatrizantes. Se extrae de las hojas del árbol de té australiano. Elimina las bacterias que causan el acné, reduce la inflamación de brotes, granos y espinillas.\n¡Un ingrediente natural súper efectivo para las pieles con acné!",
+      "blockClass": "p-s2-textos-descripcion"
+    }
+  },
+  "flex-layout.col#p-s2-p1-texto2": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s2-texto-contenedor"
+    },
+    "children": [
+
+      "rich-text#p-s2-p1-texto2-titulo",
+      "rich-text#p-s2-p1-texto2-descripcion",
+       "image#p-s1-2"
+    ]
+  },
+   "rich-text#p-s2-p1-texto2-titulo": {
+    "props": {
+      "text": "✨ Ácido Láctico",
+      "blockClass": "p-s2-textos-titulo"
+    }
+  },
+  "rich-text#p-s2-p1-texto2-descripcion": {
+    "props": {
+      "text": "Es un ácido orgánico con propiedades exfoliantes, humectantes y aclarantes.\nLe da un respiro a tu cara exfoliando suavemente la capa externa de tu piel, eliminando las células muertas y destapando los poros obstruidos.",
+      "blockClass": "p-s2-textos-descripcion"
+    }
+  },
+  "flex-layout.col#p-s2-p1-texto3": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s2-texto-contenedor"
+    },
+    "children": [
+
+      "rich-text#p-s2-p1-texto3-titulo",
+      "rich-text#p-s2-p1-texto3-descripcion",
+       "image#p-s1-1"
+    ]
+  },
+   "rich-text#p-s2-p1-texto3-titulo": {
+    "props": {
+      "text": "El dúo dinámico",
+      "blockClass": "p-s2-textos-titulo"
+    }
+  },
+  "rich-text#p-s2-p1-texto3-descripcion": {
+    "props": {
+      "text": "La combinación top para limpiar tu piel de las bacterias que causan el acné y darle un glow up a tu rutina diaria.",
+      "blockClass": "p-s2-textos-descripcion"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "flex-layout.row#p-s3-kit": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"p-s3"
+    },
+    "children": [
+       "image#p-s2-1",
+       "image#p-s2-2",
+       "image#p-s2-3"
+    ]
+  },
+   "image#p-s2-1": {
+    "props": {
+      "src": "/arquivos/p-s2-1.png",
+      "blockClass":"p-s2"
+    }
+  },
+   "image#p-s2-2": {
+    "props": {
+      "src": "/arquivos/p-s2-2.png",
+      "blockClass":"p-s2"
+    }
+  },
+   "image#p-s2-3": {
+    "props": {
+      "src": "/arquivos/p-s2-3.png",
+      "blockClass":"p-s2"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+   "flex-layout.row#p-s1-p2": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"p-s1"
+    },
+    "children": [
+      "flex-layout.col#p-s1-p2",
+      "image#p-s1-p2"
+    ]
+  },
+  "flex-layout.col#p-s1-p2": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s1"
+    },
+    "children": [
+       "rich-text#p-s1-p2-1",
+       "rich-text#p-s1-p2-2",
+       "rich-text#p-s1-p2-3",
+       "rich-text#p-s1-p2-4",
+       "rich-text#p-s1-p2-5",
+       "rich-text#p-s1-p2-6",
+       "rich-text#p-s1-p2-7"
+    ]
+  },
+  "rich-text#p-s1-p2-1": {
+    "props": {
+      "text": "**Unifica** el brillo\nnatural de tu piel",
+      "blockClass": "p2-s1-titulo"
+    }
+  },
+  "rich-text#p-s1-p2-2": {
+    "props": {
+      "text": "",
+      "blockClass": "p-s1-subtitulo"
+    }
+  },
+  "rich-text#p-s1-p2-3": {
+    "props": {
+      "text": "Formulado dermatológicamente con un balance de ingredientes naturales y emergentes, este tónico facial hará una micro exfoliación en tu piel, a la vez que le brinda hidratación.",
+      "blockClass": "p123-s1-descripcion"
+    }
+  },
+  "rich-text#p-s1-p2-4": {
+    "props": {
+      "text": "",
+      "blockClass": "p-s1-subtitulo"
+    }
+  },
+  "rich-text#p-s1-p2-5": {
+    "props": {
+      "text": "El paso favorito de muchos, este tónico facial hará que la textura y tono de tu piel se unifiquen, reduciendo las marquitas que deja el acné.",
+      "blockClass": "p123-s1-descripcion"
+    }
+  },
+  "rich-text#p-s1-p2-6": {
+    "props": {
+      "text": "",
+      "blockClass": "p-s1-subtitulo"
+    }
+  },
+  "rich-text#p-s1-p2-7": {
+    "props": {
+      "text": "Le da a tu piel un makeover con una micro-exfoliación que deja tu piel fresca y con tono uniforme, además del efecto astringente para decir adiós a los brillos no deseados.",
+      "blockClass": "p123-s1-descripcion"
+    }
+  },
+
+
+
+   "image#p-s1-p2": {
+    "props": {
+      "src": "/arquivos/p-p2-s1.png",
+      "blockClass":"p-s1"
+    }
+  }
+}

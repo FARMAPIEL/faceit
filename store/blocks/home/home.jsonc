@@ -1,0 +1,167 @@
+{
+  "store.home": {
+    "blocks": [
+
+      "flex-layout.row#s0",
+      "flex-layout.row#s1",
+      "flex-layout.row#s2",
+      "flex-layout.row#s3",
+      "flex-layout.row#s4",
+      "flex-layout.row#s5",
+      "flex-layout.row#s6",
+      "flex-layout.row#s7",
+      "flex-layout.row#s8"
+      ,"flex-layout.row#whats"
+     // ,"modal-trigger#ModalCupon"
+    ]
+  },
+
+
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+  "rich-text#question": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  },
+/* --- se cambia codigo whatsapp--- */
+"overlay-trigger#whats":{
+  "props": {
+  "trigger":"hover"
+  },
+  "children":["image#whats",
+              "overlay-layout#whats"]
+},
+"overlay-layout#whats":{
+  "props": {
+    "placement": "right",
+    "scrollBehavior":"close-on-scroll",
+    "backdrop":"none",
+    "showArrow":false,
+    "blockClass":"overlay-whats"
+  },"children":["link#whats-personal"]
+},
+"flex-layout.row#whats":{
+  "children":["overlay-trigger#whats"],
+              "props":{
+                "blockClass":"bloque-whatsapp-p"
+              }
+},
+"link#whats-personal":{
+  "props": {
+  "href": "https://api.whatsapp.com/send?phone=525576570206&text=%C2%A1Hola%21+Estoy+en+la+tienda+Farmapiel+y+quiero+pedir+m%C3%A1s+informaci%C3%B3n.",
+  "target": "_blank",
+  "noUpperCase":"true",
+  "blockClass":"link-whats-empresas-p"
+
+  }
+  },
+"image#whats": {
+"props": {
+  "src": "arquivos/LOGOWH.png",
+  "title": "WhatsApp",
+  "maxwidth":"30px",
+  "blockClass": "wf-2",
+  "link":{ // se agrega para 1 solo numero clientes
+        "newTab":true,
+        "url":"https://api.whatsapp.com/send?phone=525576570206&text=%C2%A1Hola%21+Estoy+en+la+tienda+Farmapiel+y+quiero+pedir+m%C3%A1s+informaci%C3%B3n."
+      } // fin 1 solo numero clientes
+    }
+} /* ---fin de codigo whatsapp--- */
+,"modal-trigger#ModalCupon": {
+  "props": {
+  "trigger":"load-session"
+  },
+  "children": ["modal-layout#ModalCupon"]
+},
+
+"modal-layout#ModalCupon": {
+  "props": {
+  "fullScreen":false,
+  "blockClass":"ModalPop"
+  },
+   "children": ["modal-header#cupon","image#ModalCupon"]
+},
+"modal-header#cupon": {
+  "props": {
+    "iconCloseSize": 28
+  }
+},
+
+"image#ModalCupon": {
+  "props": {
+    "src": "arquivos/CuponPop2.png",
+    "title": "Cupon"
+    ,"blockClass": "CuponPop"
+      }
+  }
+}
+

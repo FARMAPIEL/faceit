@@ -1,0 +1,12 @@
+{
+  "flex-layout.row#p-s3-p3": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"p-s3"
+    },
+    "children": [
+       "image#p-s2-2",
+       "image#p-s2-3"
+    ]
+  }
+}

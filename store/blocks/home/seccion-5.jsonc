@@ -1,0 +1,108 @@
+{
+   "flex-layout.row#s5": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"s5"
+    },
+    "children": [
+       "responsive-layout.desktop#s5",
+       "responsive-layout.tablet#s5",
+       "responsive-layout.mobile#s5"
+    ]
+  },
+   "responsive-layout.desktop#s5": {
+    "children": ["flex-layout.col#s5"]
+  },
+  "responsive-layout.tablet#s5": {
+    "children": ["flex-layout.col#s5"]
+  },
+  "responsive-layout.mobile#s5": {
+    "children": ["flex-layout.col#s5-m"]
+  },
+  "flex-layout.col#s5": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"s5"
+    },
+    "children": [
+       "flex-layout.col#s5-textos",
+      "image#s5"
+    ]
+  },
+   "flex-layout.col#s5-m": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"s5"
+    },
+    "children": [
+       "flex-layout.col#s5-textos",
+      "image#s5-m"
+    ]
+  },
+
+
+  "image#s5": {
+    "props": {
+      "src": "arquivos/s5.png",
+      "blockClass":"s5"
+    }
+  },
+   "image#s5-m": {
+    "props": {
+      "src": "/arquivos/s5-m.png",
+      "blockClass":"s5"
+    }
+  },
+  "flex-layout.col#s5-textos": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"s5-textos"
+    },
+    "children": [
+      "flex-layout.row#s5-quote",
+      "rich-text#s5-2",
+      "rich-text#s5-3",
+      "rich-text#s5-4"
+    ]
+  },
+   "flex-layout.row#s5-quote": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"s5-quote"
+    },
+    "children": [
+      "rich-text#s5-1",
+      "image#s5-quote"
+    ]
+  },
+   "image#s5-quote": {
+    "props": {
+      "src": "arquivos/s5-quote.png",
+      "blockClass":"s5-quotes"
+    }
+  },
+   "rich-text#s5-1": {
+    "props": {
+      "text": "Los expertos dermatólogos lo recomiendan",
+      "blockClass": "s5-1"
+    }
+  },
+  "rich-text#s5-2": {
+    "props": {
+      "text": "FACEIT trata el acné y las imperfecciones de la piel de manera efectiva y suave, es apto para todo tipo de piel y está formulado con ingredientes activos clave, que han demostrado ser efectivos para mejorar la apariencia de la piel.",
+      "blockClass": "s5-2"
+    }
+  },
+  "rich-text#s5-3": {
+    "props": {
+      "text": "Dra. Carla González, MD. Dermatología clínica",
+      "blockClass": "s5-3"
+    }
+  },
+  "rich-text#s5-4": {
+    "props": {
+      "text": "Universidad Nacional Autónoma de México (UNAM)",
+      "blockClass": "s5-4"
+    }
+  }
+}

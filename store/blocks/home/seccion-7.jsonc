@@ -1,0 +1,42 @@
+{
+   "flex-layout.row#s7": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"s7"
+    },
+    "children": [
+       "flex-layout.col#s7",
+      "image#s7"
+    ]
+  },
+   "flex-layout.col#s7": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"s7"
+    },
+    "children": [
+      "rich-text#s7",
+      "link#s7"
+    ]
+  },
+  "rich-text#s7": {
+    "props": {
+      "text": "Tu piel sana y sin filtros\n**en solo 3 pasos**",
+
+      "blockClass": "s7"
+    }
+  },
+   "link#s7": {
+    "props": {
+      "href": "/FACEIT-Rutina-de-3-Pasos-Antiacne/p",
+      "label": "Checa más 👀",
+      "blockClass":"s7"
+    }
+  },
+  "image#s7": {
+    "props": {
+      "src": "/arquivos/s7.png",
+      "blockClass":"s7"
+    }
+  }
+}

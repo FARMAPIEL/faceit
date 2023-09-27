@@ -1,0 +1,51 @@
+{
+  "store.custom#about-us": {
+    "parent": {
+      
+    },
+    "blocks": [
+      "responsive-layout.desktop#about-seccion-0",
+      "responsive-layout.tablet#about-seccion-0",
+      "responsive-layout.mobile#about-seccion-0",
+      "flex-layout.row#s5",
+      "rich-text#about-seccion-faceit_descripcion",
+      "flex-layout.row#p-s2-about",
+      "rich-text#about-seccion-3",
+      "flex-layout.row#about-seccion-4",
+      "flex-layout.row#s8",
+      "flex-layout.row#p-s5"
+    ]
+  },
+  "header#empty": {
+    "blocks": [
+      "header-layout.desktop#empty",
+      "header-layout.mobile#empty"
+    ]
+  },
+  "header-layout.desktop#empty": {
+    "children": []
+  },
+  "header-layout.mobile#empty": {
+    "children": []
+  },
+
+
+
+
+
+  "rich-text#about-seccion-3": {
+    "props": {
+      "text":"Sobre Faceit, sin rodeos\n**Solo resultados asombrosos**",
+      "textPosition": "CENTER",
+      "blockClass": "about-seccion-3"
+    }
+  },
+  "rich-text#about-seccion-faceit_descripcion": {
+    "props": {
+      "text":"Faceit es un sistema anti-acné, fabricado y comercializado por Farmapiel, líderes en productos dermatológicos con más de 30 años de experiencia en México.",
+      "blockClass": "about-seccion-faceit_descripcion"
+    }
+  }
+
+
+}

@@ -1,0 +1,88 @@
+{
+  "flex-layout.row#p-s4-kit": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"p-s4"
+    },
+    "children": [
+       "flex-layout.col#p-s4-kit",
+      "image#p-s4-r"
+    ]
+  },
+   "flex-layout.row#p-s4-kit-m": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"p-s4"
+    },
+    "children": [
+       "flex-layout.col#p-s4-kit",
+      "image#p-s4-m"
+    ]
+  },
+  "responsive-layout.desktop#p-s4": {
+    "children": ["flex-layout.row#p-s4-kit"]
+  },
+  "responsive-layout.tablet#p-s4": {
+    "children": ["flex-layout.row#p-s4-kit"]
+  },
+  "responsive-layout.mobile#p-s4": {
+    "children": ["flex-layout.row#p-s4-kit-m"]
+  },
+
+  "flex-layout.col#p-s4-kit": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s4"
+    },
+    "children": [
+      "rich-text#p-s4-kit-titulo",
+      "rich-text#p-s4-kit-1",
+      "rich-text#p-s4-kit-2",
+      "rich-text#p-s4-kit-3",
+      "rich-text#p-s4-kit-4"
+    ]
+  },
+  "rich-text#p-s4-kit-titulo": {
+    "props": {
+      "text": "Modo de uso",
+
+      "blockClass": "p-s4-titulo"
+    }
+  },
+  "rich-text#p-s4-kit-1": {
+    "props": {
+      "text": "**Paso 1:** Dermolimpiador en espuma con aceite del árbol de té. Lava tu cara durante 1 minuto dando masajes circulares con las yemas de los dedos. Enjuaga tu rostro y sécalo de forma delicada con pequeños golpecitos. Úsalo de día y de noche.",
+      "blockClass": "p-s4-texto"
+    }
+  },
+  "rich-text#p-s4-kit-2": {
+    "props": {
+      "text": "**Paso 2:** Tónico con ácido glicólico. Aplica con toquecitos sobre la piel limpia y seca todas las mañanas, deja que se absorba antes de hidratar tu piel.",
+      "blockClass": "p-s4-texto"
+    }
+  },
+  "rich-text#p-s4-kit-3": {
+    "props": {
+      "text": "**Paso 3:** Tratamiento focalizado gel de peróxido de benzoílo. Aplica sobre los brotes que desees eliminar y/o las zonas a tratar, deja actuar toda la noche. Por la mañana lava tu cara con el dermolimpiador con aceite del árbol de té.",
+      "blockClass": "p-s4-texto"
+    }
+  },
+  "rich-text#p-s4-kit-4": {
+    "props": {
+      "text": "**Durante tu tratamiento no se debe exponer directamente al sol, protege tu piel con bloqueadores NO comedogénicos.**",
+      "blockClass": "p-s4-importante"
+    }
+  },
+   "image#p-s4-r": {
+    "props": {
+      "src": "/arquivos/p-s4-r.png",
+      "blockClass":"p-s4-r"
+    }
+  },
+   "image#p-s4-m": {
+    "props": {
+      "src": "/arquivos/p-s4-m.png",
+      "blockClass":"p-s4-r"
+    }
+  }
+}

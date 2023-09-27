@@ -1,0 +1,124 @@
+{
+   "flex-layout.row#p-s2-p2": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"p-s2"
+    },
+    "children": [
+     "flex-layout.col#p-s2-p2"
+    ]
+  },
+  "flex-layout.col#p-s2-p2": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s2"
+    },
+    "children": [
+       "rich-text#p-s2-p2-titulo",
+       "flex-layout.row#p-s2-p2-textos"
+    ]
+  },
+   "rich-text#p-s2-p2-titulo": {
+    "props": {
+      "text": "Ingredientes estrella\npara **unificar tu piel**",
+      "textPosition": "CENTER",
+      "blockClass": "p2-s2-titulo"
+    }
+  },
+   "flex-layout.row#p-s2-p2-textos": {
+    "props": {
+      "colSizing": "equal",
+      "blockClass":"p-s2-textos"
+    },
+    "children": [
+     "flex-layout.col#p-s2-p2-texto1",
+     "flex-layout.col#p-s2-p2-texto2",
+     "flex-layout.col#p-s2-p2-texto3"
+    ]
+  },
+
+
+  "flex-layout.col#p-s2-p2-texto1": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s2-texto-contenedor"
+    },
+    "children": [
+      "rich-text#p-s2-p2-texto1-titulo",
+      "rich-text#p-s2-p2-texto1-descripcion",
+      "image#p2-s1-1"
+    ]
+  },
+   "rich-text#p-s2-p2-texto1-titulo": {
+    "props": {
+      "text": "Extracto de manzanilla",
+      "blockClass": "p-s2-textos-titulo"
+    }
+  },
+  "rich-text#p-s2-p2-texto1-descripcion": {
+    "props": {
+      "text": "Extracto natural con propiedades antioxidantes que pueden ayudar a proteger tu piel del estrés oxidativo, además de cualidades calmantes que va a amar tu carita.",
+      "blockClass": "p-s2-textos-descripcion"
+    }
+  },
+  "flex-layout.col#p-s2-p2-texto2": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s2-texto-contenedor"
+    },
+    "children": [
+
+      "rich-text#p-s2-p2-texto2-titulo",
+      "rich-text#p-s2-p2-texto2-descripcion",
+       "image#p-s1-2"
+    ]
+  },
+   "rich-text#p-s2-p2-texto2-titulo": {
+    "props": {
+      "text": "✨ Ácido Glicólico",
+      "blockClass": "p-s2-textos-titulo"
+    }
+  },
+  "rich-text#p-s2-p2-texto2-descripcion": {
+    "props": {
+      "text": "Es un tipo de ácido alfa hidroxi (AHA) de origen natural con propiedades exfoliantes. Mejora la textura, apariencia, hidratación y unifica el tono de tu piel. Tiene un efecto astringente para controlar la producción de grasa en tu rostro.",
+      "blockClass": "p-s2-textos-descripcion"
+    }
+  },
+  "flex-layout.col#p-s2-p2-texto3": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s2-texto-contenedor"
+    },
+    "children": [
+
+      "rich-text#p-s2-p2-texto3-titulo",
+      "rich-text#p-s2-p2-texto3-descripcion",
+       "image#p2-s1-3"
+    ]
+  },
+   "rich-text#p-s2-p2-texto3-titulo": {
+    "props": {
+      "text": "Aloe Vera",
+      "blockClass": "p-s2-textos-titulo"
+    }
+  },
+  "rich-text#p-s2-p2-texto3-descripcion": {
+    "props": {
+      "text": "Un ingrediente natural que cuida tu piel acelerando el proceso de cicatrización de tus granitos, ¡manteniendo en equilibrio la hidratación de tu piel!",
+      "blockClass": "p-s2-textos-descripcion"
+    }
+  },
+  "image#p2-s1-1": {
+    "props": {
+      "src": "/arquivos/p2-s1-01.png",
+      "blockClass":"p-s1-1"
+    }
+  },
+   "image#p2-s1-3": {
+    "props": {
+      "src": "/arquivos/p2-s1-03.png",
+      "blockClass":"p-s1-1"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+    "store.custom#politicas-de-envio": {
+        "blocks": [
+          "flex-layout.row#politicas-de-envio"
+        ]
+      },
+      "flex-layout.row#politicas-de-envio": {
+        "props": {
+          "blockClass": "contenedorpagina"
+        },
+        "children": [
+          "flex-layout.col#politicas-de-envio"
+        ]
+      },
+      "flex-layout.col#politicas-de-envio": {
+        "children": [
+          "rich-text#politicas-de-envio-titulo",
+          "rich-text#politicas-de-envio-descripcion",
+          "rich-text#politicas-de-envio-funcionamientoenvio",
+          "rich-text#politicas-de-envio-funcionamientoenvio-descripcion",
+          "rich-text#politicas-de-envio-devolucionesyreembolsos",
+          "rich-text#politicas-de-envio-devolucionesyreembolsos-descripcion"
+
+          
+        ]
+      },
+      "rich-text#politicas-de-envio-titulo": {
+        "props": {
+            "text": " **1. POLÍTICAS DE ENVÍO.** "
+        }
+      },
+      "rich-text#politicas-de-envio-descripcion": {
+        "props": {
+            "blockClass": "letra-politicas-de-envio",
+            "text": "a) Información general sobre envío, entrega y recogida\n\n El cliente se compromete a comunicarnos los datos personales necesarios para enviarle elo los artículos adquiridos en nuestro Sitio Web www.faceit.mx. El cliente es responsable dela información personal facilitada para el envío de su(s) artículo(s). Si la información esincorrecta, ilegible o está en un idioma que no sea inglés o español, FARMAPIEL no sehace responsable de la mercancía enviada. Por lo tanto, FARMAPIEL no está obligada adevolver el dinero o proporcionar un nuevo artículo de forma gratuita.\n\n b) Información sobre envíos nacionales o domésticos\n\n Los tiempos estimados de envío y/o entrega para cada pedido dentro de México dependende la elección de envío elegida por el cliente en el momento de realizar el pedido.\n\n Los pedidos que sean de Ciudad de México recibidos antes de la 1:00 p.m. (hora del este),de lunes a viernes, se envían entre 1 y 3 días hábiles. Además, los pedidos realizados losfines de semana o en días no laborables pueden tardar de 2 a 3 días hábiles adicionales, yaque su procesamiento y envío es distinto. Los pedidos Nacionales recibidos antes de la 1:00p.m. (hora del este), de lunes a viernes, se envían entre 3 a 5 días hábiles. Además, lospedidos realizados los fines de semana o en días no laborables pueden tardar de 2 a 3 díaslaborables más en procesarse y enviarse.\n\n FARMAPIEL generalmente utiliza los servicios de Melonn, sin embargo, FARMAPIEL sereserva el derecho de elegir el transportista de su preferencia en cada pedido. Todos lospedidos estarán sujetos no sólo a las políticas y condiciones de FARMAPIEL sino también alas políticas y condiciones que el servicio de mensajería y transporte contratada establezcanpara entregar el respectivo pedido. Asimismo, la decisión de utilizar servicios adicionalestales como seguro, embalaje especial o solicitud de firma queda a discreción deFARMAPIEL.\n\n FARMAPIEL se reserva el derecho de elegir la caja de cartón o madera, sobre, embalaje obolsa utilizada para embalar el o los artículos que forman parte de un pedido."
+        }
+      },
+      "rich-text#politicas-de-envio-funcionamientoenvio": {
+        "props": {
+            "blockClass": "letra-politicas-de-envio-subtitulos",
+            "text": " **2. FUNCIONAMIENTO DE ENVÍO Y RESTRICCIONES** "
+        }
+      },
+      "rich-text#politicas-de-envio-funcionamientoenvio-descripcion": {
+        "props": {
+            "blockClass": "letra-politicas-de-envio",
+            "text": "Ofrecemos fechas de entrega estimadas para cada opción de envío. Aunque sólo son estimaciones, es responsabilidad del servicio de paquetería el cumplimiento de dichas fechas estimadas de entrega y los tiempos pueden variar en base a situaciones ajenas a FARMAPIEL."
+        }
+      },
+      "rich-text#politicas-de-envio-devolucionesyreembolsos": {
+        "props": {
+            "blockClass": "letra-politicas-de-envio-subtitulos",
+            "text": " **3. DEVOLUCIONES Y REEMBOLSOS** "
+        }
+      },
+      "rich-text#politicas-de-envio-devolucionesyreembolsos-descripcion": {
+        "props": {
+            "blockClass": "letra-politicas-de-envio",
+            "text": "En caso de que el Usuario por cualquier razón no estuviese conforme con cualquiera de los productos que hubiese comprado, podrá hacer valer la garantía de satisfacción en un plazo de 30 días a partir de la fecha de recepción y deberá contactar al correo de servicio al cliente: contacto@faceit.mx para tramitar la devolución del producto. Para efectos de lo anterior, FARMAPIEL, en caso de ser necesario, solicitará al Usuario que se le envíen imágenes del producto en la que se aprecie el desperfecto o deberá detallar la situación que haya generado la inconformidad o insatisfacción, la cual deberá estar ligada al cien por ciento en relación con las propiedades del producto, y así proceder a la devolución y reembolso correspondiente. Sin embargo, la garantía de satisfacción y el reembolso únicamente serán aplicables cuando a discreción de FARMAPIEL el Usuario actúe de manera honesta y ética. \n\n Una vez recibida la devolución, se procesará un reembolso completo por los productos devueltos. Los reembolsos pueden demorar hasta 30 (treinta) días hábiles en procesarse de manera interna por FARMAPIEL. Una vez concluido este término, dependerá del banco de cada Usuario el tiempo en que se vea reflejado el reembolso en su estado de cuenta. "
+        }
+      }
+      
+
+    }

@@ -1,0 +1,41 @@
+{
+   "flex-layout.row#p-s7-p1": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"p-s7"
+    },
+    "children": [
+      "image#p-s7",
+      "flex-layout.col#p-s7-p1"
+    ]
+  },
+   "flex-layout.row#p-s7-p1-m": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass":"p-s7"
+    },
+    "children": [
+      "image#p-s7-m",
+      "flex-layout.col#p-s7-p1"
+    ]
+  },
+  "responsive-layout.desktop#p-s7-p1": {
+    "children": ["flex-layout.row#p-s7-p1"]
+  },
+  "responsive-layout.tablet#p-s7-p1": {
+    "children": ["flex-layout.row#p-s7-p1"]
+  },
+  "responsive-layout.mobile#p-s7-p1": {
+    "children": ["flex-layout.row#p-s7-p1-m"]
+  },
+  "flex-layout.col#p-s7-p1": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"p-s7"
+    },
+    "children": [
+      "rich-text#p-s7-titulo",
+      "rich-text#p-s7-1"
+    ]
+  }
+}

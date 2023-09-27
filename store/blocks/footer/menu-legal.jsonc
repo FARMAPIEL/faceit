@@ -1,0 +1,92 @@
+{
+  "vtex.menu@2.x:menu#legal": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#legal-titulo",
+      "menu-item#legal-1",
+      "menu-item#legal-2",
+      "menu-item#legal-3"
+    ]
+  },
+  "menu-item#legal-titulo": {
+    "props": {
+      "highlight" : false,
+      "id": "legal-titulo",
+      "type": "custom",
+      "blockClass": "menu-header",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Legal",
+        "text": "Legal"
+      }
+    }
+  },
+  "menu-item#legal-1": {
+    "props": {
+      "id": "legal-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/aviso-de-privacidad",
+        "noFollow": false,
+        "tagTitle": "Aviso de privacidad",
+        "text": "Aviso de privacidad"
+      }
+    }
+  },
+  "menu-item#legal-2": {
+    "props": {
+      "id": "legal-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicas-de-envio",
+        "noFollow": false,
+        "tagTitle": "Políticas de envío y reembolso",
+        "text": "Políticas de envío y reembolso"
+      }
+    }
+  },
+  "menu-item#legal-3": {
+    "props": {
+      "id": "legal-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos-y-condiciones",
+        "noFollow": false,
+        "tagTitle": "Terminos y condiciones del sitio Web",
+        "text": "Terminos y condiciones del sitio Web"
+      }
+    }
+  },
+  "menu-item#legal-4": {
+    "props": {
+      "id": "legal-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones del sitio web",
+        "text": "Términos y condiciones del sitio web"
+      }
+    }
+  }
+}
