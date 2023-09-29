@@ -87,7 +87,7 @@
     "children": [
       "drawer",
       "flex-layout.col#logo-desktop",
-      "minicart.v2"
+      "flex-layout.col#desktop-right"
       /*"flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
@@ -98,10 +98,16 @@
   },
   "flex-layout.col#logo-desktop": {
     "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "left"
+      "verticalAlign": "middle"
     },
     "children": ["logo#desktop"]
+  },
+  "flex-layout.col#desktop-right": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass":"header-desktop-right"
+    },
+    "children": ["login#farmapiel","minicart.v2"]
   },
   "flex-layout.col#category-menu": {
     "props": {
@@ -116,6 +122,26 @@
       "url": "/arquivos/header_logo.png",
       "width": "91",
       "height": "32"
+    }
+  },
+  // "image#mi-cuenta": {
+  //   "props": {
+  //     "src": "assets/icons/mi-cuenta-icon.svg",
+  //     "link": "/",
+  //     "blockClass":"mi-cuenta-logo"
+  //   }
+  // },
+  "login#farmapiel": {
+    "props": {
+      "emailAndPasswordTitle": "Iniciar sesión con email y contraseña",
+      "accessCodeTitle": "Recibir código de acceso por email",
+      "emailPlaceholder": "Ingresá tu email",
+      "passwordPlaceholder": "Ingresá tu contraseña",
+      "optionsTitle": "Escogé una opción para iniciar sesión",
+      "accessCodePlaceholder": "Ingresá tu código de acceso",
+      "iconLabel": " ",
+      "showIconProfile": true,
+      "providerPasswordButtonLabel": "Iniciar sesión con email y contraseña"
     }
   },
   "header-layout.mobile": {
@@ -144,14 +170,23 @@
       "fullWidth": true
     }
   },
+  // "drawer": {
+  //   "children": ["menu#drawer"]
+  // },
   "drawer": {
-    "children": ["menu#drawer"]
+    "props": {
+      "slideDirection": "leftToRight",
+      "blockClass": "drawer-mobile"
+    },
+    "children": [
+      "logo#mobile",
+      "menu#drawer",
+      "login#mobile"
+    ]
   },
-
   "menu#drawer": {
     "children": [
-      "menu-item#home",
-      "menu-item#Productos_Kit",
+      "menu-item#kit-completo",
       "menu-item#Productos_PasoUno",
       "menu-item#Productos_PasoDos",
       "menu-item#Productos_PasoTres"
@@ -160,14 +195,24 @@
       "orientation": "vertical"
     }
   },
-
+  "login#mobile": {
+    "props": {
+      "showIconProfile": true,
+      "emailAndPasswordTitle": "ACCESO A CLIENTES",
+      "accessCodeTitle": "ACCESO POR CÓDIGO ",
+      "emailPlaceholder": "E-mail",
+      "passwordPlaceholder": "Contraseña",
+      "optionsTitle": "Elegí una opción para loguearte",
+      "accessCodePlaceholder": "Código de acceso",
+      "iconLabel": "Mi cuenta",
+      "providerPasswordButtonLabel": "Entrar con email y contraseña"
+    }
+  },
   "logo#mobile": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "77.5",
-      "height": "27.5"
+      "url": "/arquivos/header_logo.png"
     }
   }
 }

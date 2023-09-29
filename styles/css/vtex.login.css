@@ -1,0 +1,221 @@
+.label {
+  position: relative;
+  font-size: 1rem;
+  font-family: sf pro display;
+  color: #1d1d1b;
+}
+
+.accessCodeOptionBtn :global(.vtex-button),
+.emailPasswordOptionBtn :global(.vtex-button) {
+  background-color: #1d1d1b;
+  color: #fff;
+  font-family: sf pro display;
+  font-size: 13px;
+  border-radius: 2px;
+  border: none;
+  min-height: 3.5rem !important;
+}
+
+.accessCodeOptionBtn :global(.vtex-button__label),
+.emailPasswordOptionBtn :global(.vtex-button__label) {
+  text-transform: none;
+}
+
+.formTitle {
+  font-family: sf pro display;
+  font-size: 18px;
+  margin-top: 0;
+  white-space: nowrap;
+}
+
+.arrowUp {
+  display: none;
+}
+
+.optionsListItem {
+  margin-bottom: 20px;
+}
+
+.contentContainer {
+  background: #ffffff;
+  border: 1px solid #f6f6f6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contentContainer .content {
+  background: #ffffff;
+  padding: 45px 25px 25px;
+}
+.contentContainer .content :global(.vtex-input-prefix__group) {
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 2px;
+  height: auto;
+  background-color: #fff;
+}
+.contentContainer .content :global(.vtex-input__suffix) {
+  background-color: #fff;
+}
+.contentContainer .content :global(.vtex-styleguide-9-x-input) {
+  background-color: #fff;
+  padding: 20px 10px;
+  font-family: sf pro display;
+  color: #000;
+  font-size: 12px;
+}
+.contentContainer .content :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #bdbfc0;
+  opacity: 1;
+}
+.contentContainer .content .formFooter {
+  border-top: none;
+}
+.contentContainer .content .formFooter .backButton,
+.contentContainer .content .formFooter .sendButton {
+  width: 46.5%;
+}
+.contentContainer .content--emailVerification .contentForm {
+  padding: 0;
+}
+.contentContainer .content--emailAndPassword .contentForm {
+  padding: 0;
+}
+.contentContainer .content--emailAndPassword .formTitle {
+  padding: 0;
+}
+.contentContainer .content--emailAndPassword .inputContainerPassword {
+  padding: 20px 0 13px;
+}
+.contentContainer .content--emailAndPassword .inputContainerPassword :global(.vtex-input) {
+  display: block;
+  margin-bottom: 10px;
+}
+.contentContainer .content--emailAndPassword .forgotPasswordLink {
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.eyeSightIcon {
+  width: 20px;
+  height: 17px;
+  overflow: initial !important;
+  color: #1d1d1b;
+}
+
+.profileIcon {
+  width: 19px;
+  height: 17px;
+  transform: scale(1.3)!important;
+  overflow: initial;
+  color: #1d1d1b;
+  position: relative;
+  /* padding: 1px; */
+}
+
+.profile {
+  max-width: 0;
+}
+:global(.vtex-store-drawer-0-x-childrenContainer--drawer-mobile) .profile {
+  /* max-width: 0; */
+  margin-top: 5px;
+  max-width: none;
+  display: block;
+}
+:global(.vtex-store-drawer-0-x-childrenContainer--drawer-mobile) .container {
+  padding: 1rem 1rem 1rem 2rem;
+  background: #e8e8e8;
+  margin-top: 0.5rem;
+  display: none;
+}
+
+:global(.vtex-store-drawer-0-x-childrenContainer--drawer-mobile) .label {
+  display: block !important;
+}
+
+:global(.vtex-store-drawer-0-x-childrenContainer--drawer-mobile) :global(.vtex-button):hover {
+  background-color: initial;
+}
+
+.container :global(.vtex-button__label) {
+  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 1rem 1rem 1rem 2rem;
+    background: #e8e8e8;
+    margin-top: 0.5rem;
+    display: block !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--header-desktop-right) .container {
+    display: none !important;
+  }
+}
+
+.sendButton :global(.vtex-button) {
+  background-color: #1d1d1b;
+  color: #fff;
+  border-color: #1d1d1b;
+  border-radius: 2px;
+  width: 100%;
+  height: 55px;
+}
+
+.backButton :global(.vtex-button) {
+  border: 1px solid #1d1d1b;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 100%;
+  height: 55px;
+}
+.backButton :global(.vtex-button) .arrowBackIcon {
+  display: none;
+}
+
+.sendButton :global(.vtex-button__label) {
+  font-family: sf pro display;
+  font-size: 12px;
+}
+
+.backButton :global(.vtex-button) {
+  color: #1d1d1b;
+}
+
+.inputContainerPassword :global(.vtex-input__suffix) {
+  padding-left: 0;
+}
+
+.box {
+  right: -38px !important;
+  top: 0px;
+  font-family: sf pro display;
+}
+
+:global(.vtex-store-drawer-0-x-childrenContainer--drawer-mobile) .box {
+  top: 10px !important;
+  right: initial !important;
+}
+
+@media screen and (max-width: 720px) {
+  .label {
+    display: block;
+    padding: 15px;
+    text-transform: initial;
+    font-family: sf pro display;
+    transform: translateY(3px);
+  }
+
+  :global(.vtex-store-drawer-0-x-childrenContainer--drawer-mobile) .profile {
+    display: block;
+    /* width: 0; */
+    max-width: 135px;
+    overflow: hidden;
+  }
+}
+.contentContainer .content--accountOptions {
+  padding: 15px;
+}
+.contentContainer .content--accountOptions .accountOptions .button,
+.contentContainer .content--accountOptions .accountOptions :global(.vtex-button__label) {
+  padding-left: 0;
+}

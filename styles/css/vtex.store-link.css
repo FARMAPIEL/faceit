@@ -201,6 +201,13 @@
 }
 
 @media screen and (max-width: 640px) {
+
+  .link--s2 {
+    width: 100%;
+  }
+  .link--ff {
+    width: 100%;
+  }
   
   .buttonLink--link-whats-empresas{
     font-size: 0.60rem;

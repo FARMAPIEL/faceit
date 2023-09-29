@@ -4,9 +4,7 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-
-      "menu-item#home",
-      "menu-item#Productos_Kit",
+      "menu-item#kit-completo",
       "menu-item#Productos_PasoUno",
       "menu-item#Productos_PasoDos",
       "menu-item#Productos_PasoTres",
@@ -40,7 +38,7 @@
         "href": "/kit-faceit",
         "noFollow": false,
         "tagTitle": "Kit FACEIT",
-        "text": "Kit FACEIT"
+        "text": "**Kit FACEIT**"
       }
     }
   },"menu-item#about": {
@@ -73,6 +71,21 @@
       },"blockClass":"MenucolorKit"
     }
   },
+  "menu-item#kit-completo": {
+    "props": {
+      "id": "menu-item-about",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/FACEIT-Rutina-de-3-Pasos-Antiacne/p",
+        "noFollow": false,
+        "tagTitle": "Kit FACEIT",
+        "text": "Kit FACEIT"
+    },"blockClass":["iconsMenu", "iconsMenubold"]
+    },"children": ["image#icon-kit"] 
+  },
   "menu-item#Productos_PasoUno": {
     "props": {
       "id": "menu-item-about",
@@ -86,8 +99,7 @@
         "tagTitle": "Dermolimpiador",
         "text": "Dermolimpiador"
       },"blockClass":"iconsMenu"
-    },"children": ["image#icon-s2-f1-1"]
-    
+    },"children": ["image#icon-s2-f1-1"] 
   },
   "menu-item#Productos_PasoDos": {
     "props": {
@@ -118,6 +130,12 @@
         "text": "Gel Peróxido"
       },"blockClass":"iconsMenu"
       },"children": ["image#icon-s2-f1-3"]
+  },
+  "image#icon-kit": {
+    "props": {
+      "src": "assets/icons/fuego.png",
+      "blockClass":"iconsMenu"
+    }
   },
   "image#icon-s2-f1-1": {
     "props": {

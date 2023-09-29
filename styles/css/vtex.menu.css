@@ -2,18 +2,24 @@
   color:#F96F62;
   font-size: 18px;
 }
+.styledLinkContainer--iconsMenu {
+  margin: 0;
+}
 .styledLink--Menucolor,
 .styledLink--iconsMenu{
   color:#54565A;
   font-size: 16px;
+}
+.styledLinkContent--iconsMenubold {
+  font-weight: 700;
 }
 .menuItem--iconsMenu{
   display:flex;
   align-items: center;
   flex-direction: row-reverse;
   justify-content: start;
-  margin-top: .3em;
-  padding: 0 1.3em;
+  /* margin-top: .3em; */
+  /* padding: 10px 15px; */
 }
 
 .styledLinkContent--menu-item {
@@ -92,4 +98,25 @@
 .accordionIcon--s5-mi-pregunta {
   font-size: 36px;
   font-weight: 200;
+}
+.menuContainerNav {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .menuContainerNav {
+    width: 100%;
+  }
+  .menuContainerNav--header-submenu-column {
+    width: 100%;
+    padding: 0rem;
+  }
+  .menuItem--iconsMenu{
+    display:flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: start;
+    /* margin-top: .3em; */
+    padding: 0;
+  }
 }

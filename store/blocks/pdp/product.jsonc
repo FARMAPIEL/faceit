@@ -1,8 +1,8 @@
 {
   "store.product": {
-    "parent": {
-       "header": "header#pdp"
-    },
+    // "parent": {
+    //    "header": "header#pdp"
+    // },
     "children": [
      /* "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
@@ -72,12 +72,12 @@
   },
 
   //*************** SE INICIA EL HEADER UNICO PARA PRODUCTOS *********************
-  "header#pdp": {
-    "blocks": [
-      "header-layout.desktop#pdp",
-      "header-layout.mobile#pdp"
-    ]
-  },
+  // "header#pdp": {
+  //   "blocks": [
+  //     "header-layout.desktop#pdp",
+  //     "header-layout.mobile#pdp"
+  //   ]
+  // },
   "header-layout.desktop#pdp": {
     "children": [
        "flex-layout.row#banner-envio",
@@ -757,6 +757,7 @@
       "vtex.store-components:product-name",
       "rich-text#tipopiel",
       "product-separator",
+      "flex-layout.row#free-shipping",
       "product-list-price",
       "flex-layout.row#selling-price",
 
@@ -768,9 +769,9 @@
       //"product-gifts",
       "flex-layout.row#description",
       "flex-layout.row#buy-button",
-      "image#p-s6-logos",
+      "image#p-s6-logos"
       //"availability-subscriber",
-      "shipping-simulator"
+      // "shipping-simulator"
     ]
   },
 
@@ -781,7 +782,57 @@
       "blockClass": "tipopiel"
     }
   },
-
+  "flex-layout.row#free-shipping": {
+    "props": {
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "free-shipping-row"
+    },
+    "children": [
+      "flex-layout.col#free-shipping-left",
+      "flex-layout.col#free-shipping-right"
+    ]
+  },
+  "flex-layout.col#free-shipping-left": {
+    "props": {
+      "blockClass": "free-shipping-left"
+    },
+    "children": ["image#free-shipping-icon"]
+  },
+  "image#free-shipping-icon": {
+    "props": {
+      "src": "assets/icons/free-shipping.svg",
+      "blockClass": "free-shipping-icon"
+    }
+  },
+  "flex-layout.col#free-shipping-right": {
+    "props": {
+      "blockClass": "free-shipping-right"
+    },
+    "children": ["flex-layout.row#free-shipping-right-box"]
+  },
+  "flex-layout.row#free-shipping-right-box": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "free-shipping-right-box"
+    },
+    "children": [
+      "rich-text#free-shipping-text-top",
+      "rich-text#free-shipping-text-bottom"
+    ]
+  },
+  "rich-text#free-shipping-text-top": {
+    "props": {
+      "text": "Información de envío",
+      "blockClass": "free-shipping-text-top"
+    }
+  },
+  "rich-text#free-shipping-text-bottom": {
+    "props": {
+      "text": "**ENVÍO GRATIS** • Compra hoy y recibe en 2 dias hábiles aprox.",
+      "blockClass": "free-shipping-text-bottom"
+    }
+  },
   "responsive-layout.desktop#rating-share": {
     "children": ["flex-layout.row#rating-share"]
   },
