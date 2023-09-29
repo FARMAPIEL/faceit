@@ -867,6 +867,8 @@ margin-top: 36px;
   align-items: center;
   margin-top: 10px;
   margin-bottom: 25px;
+  justify-content: flex-start;
+  gap: 15px;
 }
 
 .flexRowContent--free-shipping-right-box {
