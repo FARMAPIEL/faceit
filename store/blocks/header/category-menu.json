@@ -71,6 +71,46 @@
       },"blockClass":"MenucolorKit"
     }
   },
+  "flex-layout.row#menu-1": {
+    "props": {
+      "blockClass":"menu-item-row",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#icon-kit",
+      "menu-item#kit-completo"
+    ]
+  },
+  "flex-layout.row#menu-2": {
+    "props": {
+      "blockClass":"menu-item-row",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#icon-s2-f1-1",
+      "menu-item#Productos_PasoUno"
+    ]
+  },
+  "flex-layout.row#menu-3": {
+    "props": {
+      "blockClass":"menu-item-row",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#icon-s2-f1-2",
+      "menu-item#Productos_PasoDos"
+    ]
+  },
+  "flex-layout.row#menu-4": {
+    "props": {
+      "blockClass":"menu-item-row",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#icon-s2-f1-3",
+      "menu-item#Productos_PasoTres"
+    ]
+  },
   "menu-item#kit-completo": {
     "props": {
       "id": "menu-item-about",
@@ -84,7 +124,7 @@
         "tagTitle": "Kit FACEIT",
         "text": "Kit FACEIT"
     },"blockClass":["iconsMenu", "iconsMenubold"]
-    },"children": ["image#icon-kit"] 
+    }
   },
   "menu-item#Productos_PasoUno": {
     "props": {
@@ -99,7 +139,7 @@
         "tagTitle": "Dermolimpiador",
         "text": "Dermolimpiador"
       },"blockClass":"iconsMenu"
-    },"children": ["image#icon-s2-f1-1"] 
+    }
   },
   "menu-item#Productos_PasoDos": {
     "props": {
@@ -114,7 +154,7 @@
         "tagTitle": "Tónico Facial",
         "text": "Tónico Facial"
       },"blockClass":"iconsMenu"
-      },"children": ["image#icon-s2-f1-2"]
+      }
   },
   "menu-item#Productos_PasoTres": {
     "props": {
@@ -129,7 +169,7 @@
         "tagTitle": "Gel Peróxido",
         "text": "Gel Peróxido"
       },"blockClass":"iconsMenu"
-      },"children": ["image#icon-s2-f1-3"]
+      }
   },
   "image#icon-kit": {
     "props": {

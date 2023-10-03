@@ -186,10 +186,11 @@
   },
   "menu#drawer": {
     "children": [
-      "menu-item#kit-completo",
-      "menu-item#Productos_PasoUno",
-      "menu-item#Productos_PasoDos",
-      "menu-item#Productos_PasoTres"
+      // "menu-item#kit-completo",
+      "flex-layout.row#menu-1",
+      "flex-layout.row#menu-2",
+      "flex-layout.row#menu-3",
+      "flex-layout.row#menu-4"
     ],
     "props": {
       "orientation": "vertical"

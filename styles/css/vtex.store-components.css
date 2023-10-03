@@ -3,7 +3,8 @@
   width: 0%;
 }*/
 .imageElement--iconsMenu{
-  width: 15%;
+  /* width: 15%; */
+  width: 60px;
   padding: 15px;
 }
 .imageElement--icono_banner-envio {
