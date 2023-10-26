@@ -398,3 +398,56 @@
 .image {
   image-rendering: -webkit-optimize-contrast;
 }
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--home-slider-container){
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--home-slider-container) .infoCardTextContainer--home-slide-container {
+  /* position: absolute;
+  bottom: 25%; */
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--home-slider-container) .infoCardHeadline--home-slide-container {
+  /* display: none; */
+    font-family: sf pro display;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0;
+    text-align: center;
+    background: linear-gradient(180deg,#fff,hsla(0,0%,100%,.64));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 684px;
+    margin-top: 0;
+}
+
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--home-slider-container) .infoCardCallActionContainer {
+  display: none;
+}
+
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--home-slider-container) .infoCardContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infoCardImageLinkWrapper--home-slide-container {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+  :global(.vtex-slider-layout-0-x-slideChildrenContainer--home-slider-container) .infoCardHeadline--home-slide-container {
+    font-size: 48px;
+    max-width: 80%;
+  }
+}

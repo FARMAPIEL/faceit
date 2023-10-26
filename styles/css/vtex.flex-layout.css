@@ -103,6 +103,10 @@
   padding: 0;
 }
 
+.flexRowContent--main-header :global(.vtex-store-components-3-x-logoContainer) {
+  margin-left: 41px;
+}
+
 .flexCol--landing2-seccion-0 :global(.vtex-rich-text-0-x-paragraph--about-seccion-0-item) {
   color: #1A1A1A;
 }

@@ -1,8 +1,8 @@
 {
   "store.home": {
     "blocks": [
-
-      "flex-layout.row#s0",
+      "slider-layout#home-images-new",
+      // "flex-layout.row#s0",
       "flex-layout.row#s1",
       "flex-layout.row#s2",
       "flex-layout.row#s3",

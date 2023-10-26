@@ -1,0 +1,74 @@
+{
+    "slider-layout#home-images-new": {
+        "children": [
+            "info-card#slide-one-new",
+            "info-card#slide-two-new"
+            // "info-card#slide-three-new"
+        ],
+        "props": {
+            "autoplay": {
+                "timeout": 7000,
+                "stopOnHover": true
+            },
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "fullWidth": true,
+            "blockClass": "home-slider-container"
+        }
+    },
+    "info-card#slide-one-new": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "arquivos/s0.png",
+            "mobileImageUrl": "arquivos/s0-m.png",
+            "headline": "¡Una piel sana no tiene por qué ser perfecta!",
+            "subhead": "",
+            // "callToActionText": "Ver ofertas",
+            // "callToActionUrl": "/ofertas",
+            "blockClass": "home-slide-container",
+            "textAlignment": "center",
+            "imageActionUrl": "#productos"
+        }
+    },
+    "info-card#slide-two-new": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/home/junkies-desk.png",
+            "mobileImageUrl": "assets/home/junkies-mob.png",
+            "headline": "",
+            "subhead": "",
+            // "callToActionText": "Ver ofertas",
+            // "callToActionUrl": "https://www.beautyjunkies.mx/post/hablemos-del-acne-directo-al-grano",
+            "blockClass": "home-slide-container",
+            "textAlignment": "center",
+            "linkTarget": "_blank",
+            "target": "_blank",
+            "imageActionUrl": "https://www.beautyjunkies.mx/post/hablemos-del-acne-directo-al-grano"
+        }
+    },
+    "info-card#slide-three-new": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://bazharsar.vteximg.com.br/arquivos/MER-HOT-SALE-BANNER-DESKTOP-3.jpg",
+            "mobileImageUrl": "https://bazharsar.vteximg.com.br/arquivos/MER-HOT-SALE-BANNER-MOBILE-3.jpg",
+            "headline": "",
+            "subhead": "",
+            "callToActionText": "Ver ofertas",
+            "callToActionUrl": "/pisos",
+            "blockClass": "home-slide-container",
+            "textAlignment": "center",
+            "imageActionUrl": "https://www.bazhars.com.ar/pisos"
+        }
+    }
+}
