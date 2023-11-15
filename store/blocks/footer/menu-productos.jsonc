@@ -5,6 +5,7 @@
     },
     "children": [
       "menu-item#productos-titulo",
+      "menu-item#productos-buenfin",
       "menu-item#productos-1",
       "menu-item#productos-2",
       "menu-item#productos-3",
@@ -23,6 +24,22 @@
         "noFollow": false,
         "tagTitle": "Productos",
         "text": "Productos"
+      }
+    }
+  },
+  "menu-item#productos-buenfin": {
+    "props": {
+      "id": "productos-buenfin",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/buenfin",
+        "noFollow": false,
+        "tagTitle": "Buenfin",
+        "text": "Buenfin"
       }
     }
   },
