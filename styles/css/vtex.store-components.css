@@ -451,3 +451,31 @@
     max-width: 80%;
   }
 }
+
+
+/* INICIO BANNERS */
+
+.imageElement--banner-buenfin {
+  /* height: 50vh;
+  object-fit: cover; */
+  width: 100%;
+}
+.imageElement--slider-buenfin {
+  height: 100% !important;
+  max-height: 100% !important;
+}
+
+@media only screen and (max-width: 640px) {
+
+  .imageElement--banner-buenfin {
+    height: 100%;
+  }
+  
+}
+
+/* FIN BANNERS */
+
+:global(.vtex-flex-layout-0-x-flexRow--buenfin-p-s5) .container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}

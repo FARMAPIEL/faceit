@@ -1,5 +1,5 @@
 .flexRowContent--banner-envio{
-  background-color: black;
+  background-color: #ee291a;
   height: 42px;
 
 } 
@@ -1280,6 +1280,158 @@ margin-top: 36px;
   height: 17px;
   transform: scale(1.3) !important;
 }
+
+.flexRow--slider-buenfin-container :global(.vtex-store-components-3-x-container) {
+  padding: 0 !important;
+}
+
+.flexRow--slider-buenfin-container :global(.vtex-search-result-3-x-galleryTitle--layout) {
+  display: none;
+}
+.flexRow--slider-buenfin-container :global(.vtex-breadcrumb-1-x-container) {
+  display: none;
+}
+
+/* INICIO CUCARDAS */
+
+/* INICIO CUCARDA DESCUENTO y ENVIO */
+
+.flexRow--product-shelf-badges {
+  width: 100%;
+}
+.flexRow--product-shelf-badges .flexRowContent--product-shelf-badges {
+  padding-top: 1.5rem;
+  width: 100%;
+  bottom: initial !important;
+}
+@media only screen and (max-width: 600px) {
+  .flexRow--product-shelf-badges .flexRowContent--product-shelf-badges {
+    padding-top: 1rem;
+    display: flex;
+  }
+}
+
+.flexCol--product-shelf-badges {
+  justify-content: flex-start;
+  height: auto;
+  flex-direction: row;
+  align-items: center;
+  height: 20px;
+}
+
+.flexColChild--product-shelf-badges {
+  height: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 15px 0px 0px; */
+  padding-right: 5px;
+}
+
+/* FIN CUCARDA DESCUENTO y ENVIO */
+
+/* INICIO CUCARDA BUENFIN */
+
+.flexRowContent--cucardas-moda-descuento {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+@media (max-width: 991px) {
+  .flexRowContent--cucardas-moda-descuento {
+    /* top: 10px; */
+    right: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+}
+
+:global(.vtex-shelf-1-x-sliderContainer--productos-relacionados) .flexRowContent--cucardas-moda-descuento {
+  right: 10px;
+  top: 10px;
+}
+
+@media (max-width: 991px) {
+  :global(.vtex-shelf-1-x-sliderContainer--productos-relacionados-mobile) .flexRowContent--cucardas-moda-descuento {
+    right: 15px !important;
+  }
+}
+
+.flexRow--productContainer .flexRowContent--cucardas-moda-descuento {
+  top: 10px;
+}
+
+.flexCol--accion-moda-product {
+  width: 60px !important;
+  height: 60px !important;
+  margin-bottom: 0.5rem !important;
+}
+@media only screen and (max-width: 1025px) {
+  .flexCol--accion-moda-product {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+.flexCol--cucardas-left-top .flexCol--accion-moda-product {
+  width: 60px;
+  height: 60px;
+  position: initial;
+}
+@media only screen and (max-width: 1025px) {
+  .flexCol--cucardas-left-top .flexCol--accion-moda-product {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .flexCol--cucardas-left-top .flexCol--accion-moda-product :global(.vtex-store-components-3-x-imageElement--cuc-accion-moda) {
+    position: initial;
+  }
+}
+/* FIN CUCARDA BUENFIN */
+
+/* FIN CUCARDAS */
+
+/* INICIO PRECIOS */
+
+.flexRowContent--product-price-container {
+  display: flex;
+  /* margin-top: 10px; */
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* padding-top: 2px; */
+}
+@media only screen and (max-width: 600px) {
+  .flexRowContent--product-price-container {
+    justify-content: flex-start;
+  }
+  .flexRowContent--product-main .flexRowContent--product-price-container {
+    margin-right: 30px;
+  }
+}
+
+.flexCol--product-price-container {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* FIN PRECIOS */
+
+:global(.vtex-search-result-3-x-searchResultContainer) {
+  padding: 4rem;
+}
+@media only screen and (max-width: 600px) {
+  :global(.vtex-search-result-3-x-searchResultContainer) {
+    padding: 0;
+  }
+}
+
   @media screen and (max-width: 1050px){/* se cambio maximo para entrar en el rango del ipad */
     /* --- estilo para botones whatsapp--- */
     .flexRowContent--bloque-whatsapp-p{

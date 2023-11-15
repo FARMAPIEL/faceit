@@ -1,13 +1,13 @@
 {
   "product-summary.shelf": {
     "children": [
-      "stack-layout#prodsum",
+      "flex-layout.row#cucardas",
+      "product-summary-image#shelf",
+      "flex-layout.col#badges",
       "product-summary-name",
-      "flex-layout.col#productRating",
-      "product-summary-space",
-      "product-list-price#summary",
-      "flex-layout.row#selling-price-savings",
-      "product-installments#summary",
+    //   "product-list-price#summary",
+    //   "product-selling-price#summary",
+      "flex-layout.row#product-price",
       "add-to-cart-button"
     ]
   },
@@ -48,7 +48,8 @@
   },
   "product-highlight-text": {
     "props": {
-      "message": "{highlightName}"
+      "message": "{highlightName}",
+      "blockClass":["envio-gratis-cuc"]
     }
   },
 

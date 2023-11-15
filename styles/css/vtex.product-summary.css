@@ -40,3 +40,62 @@
 .image {
   border-radius: 0.25rem;
 }
+.element {
+  position: relative;
+  justify-content: space-around;
+}
+.container :global(.vtex-button) {
+  border: none;
+  border-radius: 24px;
+  min-height: unset;
+  margin-bottom: 24px;
+  border-radius: 11px;
+  transition: all 350ms ease-in-out;
+}
+.container :global(.vtex-button):hover {
+  background: #c25349;
+  transition: all 350ms ease-in-out;
+}
+.container :global(.vtex-button__label) {
+  text-transform: none;
+  text-align: center;
+  /* font-family: 'Lora'; */
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 0px;
+}
+.container :global(.vtex-button) {
+  padding: 10px 0px;
+  border-radius: 160px;
+  background: #F96F62;
+  border: none;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  transition: all .35s ease-in-out;
+}
+
+.brandName {
+  font-weight: 400;
+  font-size: 18px;
+  color: #3A3A3A;
+  display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    white-space: pre-wrap;
+}
+@media screen and (max-width: 640px) {
+  .brandName {
+    font-size: 15px !important;
+    display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      white-space: pre-wrap;
+  }
+  .container :global(.vtex-button) {
+    padding: 7px!important;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+}

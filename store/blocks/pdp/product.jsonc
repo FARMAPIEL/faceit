@@ -758,9 +758,9 @@
       "rich-text#tipopiel",
       "product-separator",
       "flex-layout.row#free-shipping",
-      "product-list-price",
-      "flex-layout.row#selling-price",
-
+      // "product-list-price",
+      // "flex-layout.row#selling-price",
+      "flex-layout.row#product-price",
 
       //"product-identifier.product",
       //"sku-selector",
