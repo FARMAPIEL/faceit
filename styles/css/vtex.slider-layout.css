@@ -7,6 +7,10 @@
   min-height: 450px;
 }
 
+.sliderLayoutContainer--pre-header-top {
+  min-height: initial;
+}
+
 .sliderTrackContainer {
   max-width: 100%;
 }
@@ -37,5 +41,14 @@
 @media screen and (max-width: 600px) {
   .sliderTrack--home-slider-container {
     min-height: 60vh;
+  }
+}
+
+.slideChildrenContainer--pre-header-top {
+  background-color: #ee291a;
+}
+@media only screen and (max-width: 600px) {
+  .sliderTrack--pre-header-top {
+    height: 39px;
   }
 }

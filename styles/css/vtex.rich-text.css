@@ -1066,3 +1066,18 @@
     line-height: 1.3em;
   }
 }
+
+.paragraph--pre-header-text {
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+@media only screen and (max-width: 600px) {
+  .paragraph--pre-header-text {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
