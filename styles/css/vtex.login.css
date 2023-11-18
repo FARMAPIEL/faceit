@@ -160,6 +160,9 @@
   width: 100%;
   height: 55px;
 }
+:global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button):hover {
+  color: white !important;
+}
 
 .backButton :global(.vtex-button) {
   border: 1px solid #1d1d1b;
