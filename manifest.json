@@ -1,7 +1,7 @@
 {
   "vendor": "farmapielmx",
   "name": "store-theme",
-  "version": "0.28.9",
+  "version": "0.28.10",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
