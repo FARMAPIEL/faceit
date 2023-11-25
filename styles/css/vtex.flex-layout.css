@@ -469,7 +469,6 @@
   padding-top: 104px;
   padding-bottom: 51px;
   background-color: #1A1A1A;
-margin-top: 36px;
 }
 .flexRowContent--payment-methods {
   width: fit-content;
@@ -1481,5 +1480,23 @@ margin-top: 36px;
       :global(.vtex-minicart-2-x-minicartProductListContainer) {
         margin-top: 1.5rem;
         padding: 0 1rem;
+      }
+    }
+
+    .flexRow--sliderPromotionalInfo {
+      padding: 4rem 7rem;
+      background-color: #f6f6f6;
+      margin: 3rem 0;
+    }
+    .flexRow--sliderPromotionalInfo .flexRowContent--sliderPromotionalInfo {
+      justify-content: space-between;
+    }
+    @media screen and (max-width: 720px) {
+      .flexRow--promotionalInfoCard {
+        width: 100%;
+      }
+      .flexRowContent--promotionalInfoCard {
+        display: flex;
+        justify-content: center;
       }
     }

@@ -52,3 +52,47 @@
     height: 39px;
   }
 }
+
+
+
+.sliderLayoutContainer--sliderPromotionalInfo {
+  padding: 67px 1rem 49px;
+  background-color: #EDF2F3;
+  margin: 0;
+}
+@media only screen and (max-width: 600px) {
+  .sliderLayoutContainer--sliderPromotionalInfo {
+    padding: 2.5rem 1rem 3rem;
+    margin: 25px 0;
+  }
+}
+.sliderLayoutContainer--sliderPromotionalInfo .sliderTrackContainer--sliderPromotionalInfo {
+  /* padding: 0 10rem; */
+}
+@media only screen and (max-width: 600px) {
+  .sliderLayoutContainer--sliderPromotionalInfo .sliderTrackContainer--sliderPromotionalInfo {
+    padding: initial;
+  }
+}
+
+.paginationDotsContainer--sliderPromotionalInfo .paginationDot,
+.paginationDotsContainer--shelf-default .paginationDot {
+  background-color: #FFFFFF;
+  margin: 0 10px;
+  width: 3px;
+}
+.paginationDotsContainer--sliderPromotionalInfo .paginationDot::before,
+.paginationDotsContainer--shelf-default .paginationDot::before {
+  border-color: #FFFFFF;
+}
+
+.sliderTrack--sliderPromotionalInfo {
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.paginationDotsContainer--sliderPromotionalInfo {
+  bottom: 20px;
+}
+.paginationDot--sliderPromotionalInfo {
+  background-color: black !important;
+}

@@ -4,6 +4,7 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "slider-layout#promotional-info",
       "flex-layout.row#footer-1-desktop",
       "rich-text#derechos-reservados"
       /*"flex-layout.row#footer-2-desktop","flex-layout.row#footer-3-desktop"*/
@@ -218,6 +219,7 @@
 
   "footer-layout.mobile": {
     "children": [
+      "slider-layout#promotional-info",
       "flex-layout.row#footer-1-desktop",
       "rich-text#derechos-reservados"
       /*"flex-layout.row#1-footer-mobile",
