@@ -128,7 +128,7 @@
             "orderByField": "OrderByScoreDESC",
             "hideUnavailableItems": true,
             "maxItemsPerPage": 70,
-            "queryField": "142",
+            "queryField": "139",
             "mapField": "productClusterIds"
           }
         },
@@ -211,7 +211,7 @@
             {
               "subject": "productClusters",
               "arguments": {
-                "id": "142"
+                "id": "139"
               }
             }
           ],
