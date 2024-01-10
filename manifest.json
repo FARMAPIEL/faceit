@@ -1,6 +1,6 @@
 {
-  "vendor": "farmapielemx",
-  "name": "farmapielecommx",
+  "vendor": "farmapielmx",
+  "name": "farmapielmx",
   "version": "0.28.21",
   "builders": {
     "styles": "2.x",
