@@ -7,113 +7,19 @@
   },
   "header-layout.desktop": {
     "children": [
-      /*"flex-layout.row#1-desktop",
+      "flex-layout.row#1-desktop",
       "flex-layout.row#3-desktop",
-      "sticky-layout#4-desktop"*/
-      // "flex-layout.row#banner-envio",
-      "slider-layout#pre-header-desktop",
-      "flex-layout.row#4-desktop"
+      "sticky-layout#4-desktop"
     ]
   },
-  "slider-layout#pre-header-desktop": {
-      "props": {
-        "autoplay": {
-          "timeout": 5000,
-          "stopOnHover": true
-      },
-      "itemsPerPage": {
-          "desktop": 1,
-          "tablet": 1,
-          "phone": 1
-      },
-      "infinite": true,
-      "showPaginationDots": "never",
-      "showNavigationArrows": "never",
-      "fullWidth": true,
-      "blockClass": ["carousel", "pre-header-top"]
-    },
-    "children": ["rich-text#pre-header-1", "rich-text#pre-header-2"]
-  },
-  "slider-layout#pre-header-mobile": {
-    "props": {
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": true
-    },
-    "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-    },
-    "infinite": true,
-    "showPaginationDots": "never",
-    "showNavigationArrows": "never",
-    "fullWidth": true,
-    "blockClass": ["carousel", "pre-header-top"]
-    },
-    "children": ["rich-text#pre-header-3", "rich-text#pre-header-2"]
-  },
 
-  "rich-text#pre-header-1": {
-    "props": {
-      "text": "🔥¡Llegó el Buen Fin!🔥 Hasta 40% de descuento en productos seleccionados + REGALO. Válido del 16 al 21 de Noviembre.",
-      "blockClass": "pre-header-text"
-    }
-  },
-  "rich-text#pre-header-2": {
-    "props": {
-      "text": "Envíos gratis a todo el país",
-      "blockClass": "pre-header-text"
-    }
-  },
-  "rich-text#pre-header-3": {
-    "props": {
-      "text": "🔥¡Llegó el Buen Fin!🔥 Hasta 40% OFF",
-      "blockClass": "pre-header-text"
-    }
-  },
-  "rich-text#header-envio": {
-    "props": {
-      "text": "ENVÍOS GRATIS EN COMPRAS MAYORES A $899",
-      "blockClass": "header-envio"
-    }
-  },
-
-  "flex-layout.row#banner-envio": {
-    "children": ["rich-text#txt-envio", "image#icono_banner-envio"],
-    "props": {
-      "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "preserveLayoutOnMobile":true,
-      "fullWidth": true,
-      "blockClass": "banner-envio"
-    }
-  },
- 
-  "rich-text#txt-envio": {
-    "props": {
-      "text": "Envíos gratis en compras mayores de $399 MXN",
-      "blockClass": "txt-envio",
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER"
-     
-    }
-  },
-  "image#icono_banner-envio": {
-   "props": {
-    
-     "src": "/arquivos/shippingbox.png"
-    ,"blockClass":"icono_banner-envio"
-   }
- },
   "flex-layout.row#1-desktop": {
     "children": ["telemarketing"],
     "props": {
       "fullWidth": true
     }
   },
-
+  
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -144,21 +50,18 @@
       "blockClass": "main-header",
       "horizontalAlign": "center",
       "verticalAlign": "center",
-      "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
     },
     "children": [
-      "drawer",
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#desktop-right"
-      /*"flex-layout.col#category-menu",
+      "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
       "locale-switcher",
-      "login",*/
-
+      "login",
+      "minicart.v2"
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -166,13 +69,6 @@
       "verticalAlign": "middle"
     },
     "children": ["logo#desktop"]
-  },
-  "flex-layout.col#desktop-right": {
-    "props": {
-      "verticalAlign": "middle",
-      "blockClass":"header-desktop-right"
-    },
-    "children": ["login#farmapiel","minicart.v2"]
   },
   "flex-layout.col#category-menu": {
     "props": {
@@ -184,45 +80,19 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "/arquivos/header_logo.png",
-      "width": "91",
-      "height": "32"
-    }
-  },
-  // "image#mi-cuenta": {
-  //   "props": {
-  //     "src": "assets/icons/mi-cuenta-icon.svg",
-  //     "link": "/",
-  //     "blockClass":"mi-cuenta-logo"
-  //   }
-  // },
-  "login#farmapiel": {
-    "props": {
-      "emailAndPasswordTitle": "Iniciar sesión con email y contraseña",
-      "accessCodeTitle": "Recibir código de acceso por email",
-      "emailPlaceholder": "Ingresá tu email",
-      "passwordPlaceholder": "Ingresá tu contraseña",
-      "optionsTitle": "Escogé una opción para iniciar sesión",
-      "accessCodePlaceholder": "Ingresá tu código de acceso",
-      "iconLabel": " ",
-      "showIconProfile": true,
-      "providerPasswordButtonLabel": "Iniciar sesión con email y contraseña"
+      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "width": "180",
+      "height": "12"
     }
   },
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
-    "children": [
-      //"flex-layout.row#1-mobile"
-      // "flex-layout.row#banner-envio",
-      "slider-layout#pre-header-mobile",
-      "flex-layout.row#4-desktop"
-    ]
+    "children": ["flex-layout.row#1-mobile"]
   },
   "flex-layout.row#1-mobile": {
     "children": [
-      
       "drawer",
       "logo#mobile",
       "flex-layout.col#spacer",
@@ -236,50 +106,28 @@
       "fullWidth": true
     }
   },
-  // "drawer": {
-  //   "children": ["menu#drawer"]
-  // },
   "drawer": {
-    "props": {
-      "slideDirection": "leftToRight",
-      "blockClass": "drawer-mobile"
-    },
-    "children": [
-      "logo#mobile",
-      "menu#drawer",
-      "login#mobile"
-    ]
+    "children": ["menu#drawer"]
   },
+
   "menu#drawer": {
     "children": [
-      // "menu-item#kit-completo",
-      "flex-layout.row#menu-1",
-      "flex-layout.row#menu-2",
-      "flex-layout.row#menu-3",
-      "flex-layout.row#menu-4"
+      "menu-item#category-apparel",
+      "menu-item#category-home",
+      "menu-item#more"
     ],
     "props": {
       "orientation": "vertical"
     }
   },
-  "login#mobile": {
-    "props": {
-      "showIconProfile": true,
-      "emailAndPasswordTitle": "ACCESO A CLIENTES",
-      "accessCodeTitle": "ACCESO POR CÓDIGO ",
-      "emailPlaceholder": "E-mail",
-      "passwordPlaceholder": "Contraseña",
-      "optionsTitle": "Elegí una opción para loguearte",
-      "accessCodePlaceholder": "Código de acceso",
-      "iconLabel": "Mi cuenta",
-      "providerPasswordButtonLabel": "Entrar con email y contraseña"
-    }
-  },
+
   "logo#mobile": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "/arquivos/header_logo.png"
+      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "width": "77.5",
+      "height": "27.5"
     }
   }
 }

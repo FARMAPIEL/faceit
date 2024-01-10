@@ -1,22 +1,19 @@
 {
   "store.home": {
     "blocks": [
-      "slider-layout#home-images-new",
-      // "flex-layout.row#s0",
-      "flex-layout.row#s1",
-      "flex-layout.row#s2",
-      "flex-layout.row#s3",
-      "flex-layout.row#s4",
-      "flex-layout.row#s5",
-      "flex-layout.row#s6",
-      "flex-layout.row#s7",
-      "flex-layout.row#s8"
-      ,"flex-layout.row#whats"
-     // ,"modal-trigger#ModalCupon"
+      "list-context.image-list#demo"
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      // "flex-layout.row#deals",
+      // "__fold__",
+      // "rich-text#shelf-title",
+      // "flex-layout.row#shelf",
+      // "info-card#home",
+      // "rich-text#question",
+      // "rich-text#link",
+      // "newsletter"
     ]
   },
-
-
 
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
@@ -77,7 +74,19 @@
     }
   },
 
-
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
 
   "rich-text#question": {
     "props": {
@@ -91,77 +100,5 @@
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
     }
-  },
-/* --- se cambia codigo whatsapp--- */
-"overlay-trigger#whats":{
-  "props": {
-  "trigger":"hover"
-  },
-  "children":["image#whats",
-              "overlay-layout#whats"]
-},
-"overlay-layout#whats":{
-  "props": {
-    "placement": "right",
-    "scrollBehavior":"close-on-scroll",
-    "backdrop":"none",
-    "showArrow":false,
-    "blockClass":"overlay-whats"
-  },"children":["link#whats-personal"]
-},
-"flex-layout.row#whats":{
-  "children":["overlay-trigger#whats"],
-              "props":{
-                "blockClass":"bloque-whatsapp-p"
-              }
-},
-"link#whats-personal":{
-  "props": {
-  "href": "https://api.whatsapp.com/send?phone=525576570206&text=%C2%A1Hola%21+Estoy+en+la+tienda+Farmapiel+y+quiero+pedir+m%C3%A1s+informaci%C3%B3n.",
-  "target": "_blank",
-  "noUpperCase":"true",
-  "blockClass":"link-whats-empresas-p"
-
-  }
-  },
-"image#whats": {
-"props": {
-  "src": "arquivos/LOGOWH.png",
-  "title": "WhatsApp",
-  "maxwidth":"30px",
-  "blockClass": "wf-2",
-  "link":{ // se agrega para 1 solo numero clientes
-        "newTab":true,
-        "url":"https://api.whatsapp.com/send?phone=525576570206&text=%C2%A1Hola%21+Estoy+en+la+tienda+Farmapiel+y+quiero+pedir+m%C3%A1s+informaci%C3%B3n."
-      } // fin 1 solo numero clientes
-    }
-} /* ---fin de codigo whatsapp--- */
-,"modal-trigger#ModalCupon": {
-  "props": {
-  "trigger":"load-session"
-  },
-  "children": ["modal-layout#ModalCupon"]
-},
-
-"modal-layout#ModalCupon": {
-  "props": {
-  "fullScreen":false,
-  "blockClass":"ModalPop"
-  },
-   "children": ["modal-header#cupon","image#ModalCupon"]
-},
-"modal-header#cupon": {
-  "props": {
-    "iconCloseSize": 28
-  }
-},
-
-"image#ModalCupon": {
-  "props": {
-    "src": "arquivos/CuponPop2.png",
-    "title": "Cupon"
-    ,"blockClass": "CuponPop"
-      }
   }
 }
-

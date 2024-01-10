@@ -1,15 +1,3 @@
-.paper--ModalPop{
-  background-color: transparent;
-}
-
-.paper--ModalPop .headerContainer {
-  position: absolute;
-  right: 0;
-  top: 5px;
-}
-
-
-
 @media screen and (min-width: 40em) {
   .paper--quickview {
     height: 260px;
@@ -98,18 +86,4 @@
 
 .paper--product-gifts {
   padding: 1.5rem;
-}
-
-
-@media screen and (max-width: 640px) {
-  .paper--ModalPop .closeButton {
-      padding-top: 0;
-        padding-right: 5px;
-    }
-
-     .paper--ModalPop .closeIcon {
-      width: 20px;
-        height: 20px;
-     }
-
 }

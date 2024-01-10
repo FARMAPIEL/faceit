@@ -36,8 +36,9 @@
   },
   "flex-layout.col#quickviewPrice": {
     "children": [
-      "product-list-price",
-      "flex-layout.row#selling-price"
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#selling-price",
+      "product-installments"
     ]
   },
   "modal-actions#quickview": {

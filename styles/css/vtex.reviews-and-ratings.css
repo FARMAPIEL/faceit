@@ -15,34 +15,3 @@
 .star--empty {
   color: #FFB100;
 }
-
-.reviewsOrderBy {
-  display: none;
-}
-
-
-.reviewsPaging {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.reviewCommentsContainer  {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
-}
-
-.reviewComment {
-  background-color: #F2F0F2;
-  padding: 10px;
-  border-radius: 8px;
-  margin: 0 !important;
-  border-bottom: none;
-}
-
-
-@media screen and (max-width: 640px) {
-  .reviewCommentsContainer {
-    display: block;
-  }
-}

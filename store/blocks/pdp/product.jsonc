@@ -1,661 +1,16 @@
 {
   "store.product": {
-    // "parent": {
-    //    "header": "header#pdp"
-    // },
     "children": [
-     /* "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
-      //"shelf.relatedProducts",
-      //
-      //"product-questions-and-answers",
-
-*/
-      "responsive-layout.tablet#rating-share",
-      "responsive-layout.mobile#rating-share",
-      "flex-layout.row#product-main",
-
-      "condition-layout.product#p-1-seccion-1",
-      "condition-layout.product#p-2-seccion-1",
-      "condition-layout.product#p-3-seccion-1",
-      "condition-layout.product#p-kit-seccion-1",
-
-      "condition-layout.product#p-1-seccion-2",
-      "condition-layout.product#p-2-seccion-2",
-      "condition-layout.product#p-3-seccion-2",
-      "condition-layout.product#p-kit-seccion-2",
-
-
-      "condition-layout.product#p-3-seccion-3",
-      "condition-layout.product#p-kit-seccion-3",
-
-      "condition-layout.product#p-p1-seccion-4-desktop",
-      "condition-layout.product#p-p1-seccion-4-tablet",
-      "condition-layout.product#p-p1-seccion-4-mobile",
-      "condition-layout.product#p-p2-seccion-4-desktop",
-      "condition-layout.product#p-p2-seccion-4-tablet",
-      "condition-layout.product#p-p2-seccion-4-mobile",
-      "condition-layout.product#p-p3-seccion-4-desktop",
-      "condition-layout.product#p-p3-seccion-4-tablet",
-      "condition-layout.product#p-p3-seccion-4-mobile",
-      "condition-layout.product#p-kit-seccion-4-desktop",
-      "condition-layout.product#p-kit-seccion-4-tablet",
-      "condition-layout.product#p-kit-seccion-4-mobile",
-      "flex-layout.row#p-s5",
-      "flex-layout.row#s4",
-      "responsive-layout.desktop#p-s6",
-      "responsive-layout.tablet#p-s6",
-      "responsive-layout.mobile#p-s6",
-
-      "condition-layout.product#p-p1-seccion-7-desktop",
-      "condition-layout.product#p-p1-seccion-7-tablet",
-      "condition-layout.product#p-p1-seccion-7-mobile",
-      "condition-layout.product#p-p2-seccion-7-desktop",
-      "condition-layout.product#p-p2-seccion-7-tablet",
-      "condition-layout.product#p-p2-seccion-7-mobile",
-      "condition-layout.product#p-p3-seccion-7-desktop",
-      "condition-layout.product#p-p3-seccion-7-tablet",
-      "condition-layout.product#p-p3-seccion-7-mobile",
-      "condition-layout.product#p-kit-seccion-7-desktop",
-      "condition-layout.product#p-kit-seccion-7-tablet",
-      "condition-layout.product#p-kit-seccion-7-mobile",
-
-      "flex-layout.row#product-reviews",
-
-      "flex-layout.row#p-s8-p"
-
-
+      "shelf.relatedProducts",
+      "product-reviews",
+      "product-questions-and-answers"
     ]
   },
-
-  //*************** SE INICIA EL HEADER UNICO PARA PRODUCTOS *********************
-  // "header#pdp": {
-  //   "blocks": [
-  //     "header-layout.desktop#pdp",
-  //     "header-layout.mobile#pdp"
-  //   ]
-  // },
-  "header-layout.desktop#pdp": {
-    "children": [
-       "flex-layout.row#banner-envio",
-      "flex-layout.row#desktop-pdp"
-    ]
-  },
-  "header-layout.mobile#pdp": {
-    "children": ["sticky-layout#mobile-pdp"]
-  },
-
-
-
- "flex-layout.row#desktop-pdp": {
-  "props": {
-     "blockClass": "main-header",
-    "horizontalAlign": "center",
-    "verticalAlign": "center",
-    "colSizing":"auto",
-    "preserveLayoutOnMobile": true,
-    "preventHorizontalStretch": true,
-    "preventVerticalStretch": true,
-    "fullWidth": true
-  },
-  "children": [
-    "flex-layout.col#logo-desktop-pdp",
-    "minicart.v2"
-  ]
-},
-"flex-layout.col#logo-desktop-pdp": {
-  "props": {
-    "width":"grow",
-    "horizontalAlign":"center"
-  },
-  "children": ["image#desktop-pdp"]
-},
-"image#desktop-pdp": {
-  "props": {
-    "src": "/arquivos/header_logo.png",
-    "width": "91",
-    "height": "32"
-  }
-},
-"sticky-layout#mobile-pdp": {
-  "children": [
-    "flex-layout.row#banner-envio",
-    "flex-layout.row#desktop-pdp"
-  ]
-},
-"flex-layout.row#mobile-pdp": {
-  "children": [
-    "image#mobile-pdp",
-    "flex-layout.col#spacer",
-    "login",
-    "minicart.v2"
-  ],
-  "props": {
-    "blockClass": "main-header-mobile",
-    "preventHorizontalStretch": true,
-    "preserveLayoutOnMobile": true,
-    "fullWidth": true
-  }
-},
-"image#mobile-pdp": {
-  "props": {
-    "src": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-    "width": "77.5",
-    "height": "27.5"
-  }
-  },
-   "flex-layout.row#product-reviews": {
-    "props": {
-      "htmlId" : "rating",
-      "blockClass": "product-reviews"
-    },
-    "children": ["product-reviews"]
-  },
-
-  "condition-layout.product#p-1-seccion-1": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "5"
-          }
-        }
-      ],
-      "Then":  "flex-layout.row#p-s1-p1"
-    }
-  },
-  "condition-layout.product#p-2-seccion-1": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "4"
-          }
-        }
-      ],
-      "Then":  "flex-layout.row#p-s1-p2"
-    }
-  },
-  "condition-layout.product#p-3-seccion-1": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "3"
-          }
-        }
-      ],
-      "Then":  "flex-layout.row#p-s1-p3"
-    }
-  },
-   "condition-layout.product#p-kit-seccion-1": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "2"
-          }
-        }
-      ],
-      "Then":  "flex-layout.row#p-s1-kit"
-    }
-  },
-
-  "condition-layout.product#p-1-seccion-2": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "5"
-          }
-        }
-      ],
-      "Then": "flex-layout.row#p-s2-p1"
-    }
-  },
-  "condition-layout.product#p-2-seccion-2": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "4"
-          }
-        }
-      ],
-      "Then": "flex-layout.row#p-s2-p2"
-    }
-  },
-  "condition-layout.product#p-3-seccion-2": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "3"
-          }
-        }
-      ],
-      "Then":  "flex-layout.row#p-s2-p3"
-    }
-  },
-  "condition-layout.product#p-kit-seccion-2": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "2"
-          }
-        }
-      ],
-      "Then":  "flex-layout.row#p-s2-kit"
-    }
-  },
-
-
-  "condition-layout.product#p-3-seccion-3": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "3"
-          }
-        }
-      ],
-      "Then":  "flex-layout.row#p-s3-p3"
-    }
-  },
-  "condition-layout.product#p-kit-seccion-3": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "2"
-          }
-        },
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "4"
-          }
-        },
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "5"
-          }
-        }
-      ],
-      "Then":  "flex-layout.row#p-s3-kit"
-    }
-  },
-
-   "condition-layout.product#p-p1-seccion-4-desktop": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "5"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.desktop#p-s4-p1"
-    }
-  },
-  "condition-layout.product#p-p1-seccion-4-tablet": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "5"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.tablet#p-s4-p1"
-    }
-  },
-  "condition-layout.product#p-p1-seccion-4-mobile": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "5"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.mobile#p-s4-p1"
-    }
-  },
-  "condition-layout.product#p-p2-seccion-4-desktop": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "4"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.desktop#p-s4-p2"
-    }
-  },
-  "condition-layout.product#p-p2-seccion-4-tablet": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "4"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.tablet#p-s4-p2"
-    }
-  },
-  "condition-layout.product#p-p2-seccion-4-mobile": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "4"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.mobile#p-s4-p2"
-    }
-  },
-  "condition-layout.product#p-p3-seccion-4-desktop": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "3"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.desktop#p-s4-p3"
-    }
-  },
-  "condition-layout.product#p-p3-seccion-4-tablet": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "3"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.tablet#p-s4-p3"
-    }
-  },
-  "condition-layout.product#p-p3-seccion-4-mobile": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "3"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.mobile#p-s4-p3"
-    }
-  },
-   "condition-layout.product#p-kit-seccion-4-desktop": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "2"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.desktop#p-s4"
-    }
-  },
-  "condition-layout.product#p-kit-seccion-4-tablet": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "2"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.tablet#p-s4"
-    }
-  },
-  "condition-layout.product#p-kit-seccion-4-mobile": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "2"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.mobile#p-s4"
-    }
-  },
-
-   "condition-layout.product#p-p1-seccion-7-desktop": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "5"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.desktop#p-s7-p1"
-    }
-  },
-  "condition-layout.product#p-p1-seccion-7-tablet": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "5"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.tablet#p-s7-p1"
-    }
-  },
-  "condition-layout.product#p-p1-seccion-7-mobile": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "5"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.mobile#p-s7-p1"
-    }
-  },
-  "condition-layout.product#p-p2-seccion-7-desktop": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "4"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.desktop#p-s7-p2"
-    }
-  },
-  "condition-layout.product#p-p2-seccion-7-tablet": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "4"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.tablet#p-s7-p2"
-    }
-  },
-  "condition-layout.product#p-p2-seccion-7-mobile": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "4"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.mobile#p-s7-p2"
-    }
-  },
-  "condition-layout.product#p-p3-seccion-7-desktop": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "3"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.desktop#p-s7-p3"
-    }
-  },
-  "condition-layout.product#p-p3-seccion-7-tablet": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "3"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.tablet#p-s7-p3"
-    }
-  },
-  "condition-layout.product#p-p3-seccion-7-mobile": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "3"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.mobile#p-s7-p3"
-    }
-  },
-  "condition-layout.product#p-kit-seccion-7-desktop": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "2"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.desktop#p-s7"
-    }
-  },
-  "condition-layout.product#p-kit-seccion-7-tablet": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "2"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.tablet#p-s7"
-    }
-  },
-  "condition-layout.product#p-kit-seccion-7-mobile": {
-    "props": {
-      "matchType":"any",
-      "conditions": [
-        {
-          "subject": "selectedItemId",
-          "arguments": {
-            "id": "2"
-          }
-        }
-      ],
-      "Then":  "responsive-layout.mobile#p-s7"
-    }
-  },
-
-
-
-
-
-
-
-
   "flex-layout.row#specifications-title": {
     "children": ["rich-text#specifications"]
   },
@@ -676,11 +31,6 @@
     },
     "children": ["product-description"]
   },
-  "product-description" :{
-    "props" : {
-      "collapseContent": false
-    }
-  },
   "condition-layout.product#availability": {
     "props": {
       "conditions": [
@@ -692,18 +42,28 @@
       "Else": "flex-layout.row#product-availability"
     }
   },
-
-
-
-
   "flex-layout.row#product-main": {
     "props": {
-      "blockClass": "product-main"
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
     },
     "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
   },
 
-
+  "stack-layout": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": [
+      "flex-layout.row#product-image",
+      "product-bookmark",
+      "product-specification-badges"
+    ]
+  },
 
   "product-specification-badges": {
     "props": {
@@ -717,21 +77,10 @@
   "flex-layout.col#stack": {
     "children": ["stack-layout"],
     "props": {
-
+      "width": "60%",
       "rowGap": 0
     }
   },
-  "stack-layout": {
-    "props": {
-      "blockClass": "product"
-    },
-    "children": [
-      "flex-layout.row#product-image",
-      "product-bookmark",
-      "product-specification-badges"
-    ]
-  },
-
   "flex-layout.row#product-image": {
     "children": ["product-images"]
   },
@@ -741,130 +90,33 @@
         "desktop": "auto",
         "phone": "16:9"
       },
-      "thumbnailsOrientation" :"horizontal",
-      "showNavigationArrows" : true,
-      "showPaginationDots" : false
+      "displayThumbnailsArrows": true
     }
   },
   "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
-      "rowGap": 0,
-      "blockClass" : "right-col"
+      "rowGap": 0
     },
     "children": [
-      "responsive-layout.desktop#rating-share",
-      "vtex.store-components:product-name",
-      "rich-text#tipopiel",
+      "flex-layout.row#product-name",
+      "product-rating-summary",
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#selling-price",
+      "product-installments",
       "product-separator",
-      "flex-layout.row#free-shipping",
-      // "product-list-price",
-      // "flex-layout.row#selling-price",
-      "flex-layout.row#product-price",
-
-      //"product-identifier.product",
-      //"sku-selector",
+      "product-identifier.product",
+      "sku-selector",
       "product-quantity",
-      //"product-assembly-options",
-      //"product-gifts",
-      "flex-layout.row#description",
+      "product-assembly-options",
+      "product-gifts",
       "flex-layout.row#buy-button",
-      "image#p-s6-logos"
-      //"availability-subscriber",
-      // "shipping-simulator"
-    ]
-  },
-
-
-   "rich-text#tipopiel": {
-    "props": {
-      "text": "**Tipo de piel:**  Para pieles normales, grasas y mixtas, pieles con tendencia acnéica.",
-      "blockClass": "tipopiel"
-    }
-  },
-  "flex-layout.row#free-shipping": {
-    "props": {
-      "colSizing": "auto",
-      "preserveLayoutOnMobile": true,
-      "blockClass": "free-shipping-row"
-    },
-    "children": [
-      "flex-layout.col#free-shipping-left",
-      "flex-layout.col#free-shipping-right"
-    ]
-  },
-  "flex-layout.col#free-shipping-left": {
-    "props": {
-      "blockClass": "free-shipping-left"
-    },
-    "children": ["image#free-shipping-icon"]
-  },
-  "image#free-shipping-icon": {
-    "props": {
-      "src": "assets/icons/free-shipping.svg",
-      "blockClass": "free-shipping-icon"
-    }
-  },
-  "flex-layout.col#free-shipping-right": {
-    "props": {
-      "blockClass": "free-shipping-right"
-    },
-    "children": ["flex-layout.row#free-shipping-right-box"]
-  },
-  "flex-layout.row#free-shipping-right-box": {
-    "props": {
-      "colSizing": "auto",
-      "blockClass": "free-shipping-right-box"
-    },
-    "children": [
-      "rich-text#free-shipping-text-top",
-      "rich-text#free-shipping-text-bottom"
-    ]
-  },
-  "rich-text#free-shipping-text-top": {
-    "props": {
-      "text": "Información de envío",
-      "blockClass": "free-shipping-text-top"
-    }
-  },
-  "rich-text#free-shipping-text-bottom": {
-    "props": {
-      "text": "**ENVÍO GRATIS** • Compra hoy y recibe en 2 dias hábiles aprox.",
-      "blockClass": "free-shipping-text-bottom"
-    }
-  },
-  "responsive-layout.desktop#rating-share": {
-    "children": ["flex-layout.row#rating-share"]
-  },
-  "responsive-layout.tablet#rating-share": {
-    "children": ["flex-layout.row#rating-share"]
-  },
-  "responsive-layout.mobile#rating-share": {
-    "children": ["flex-layout.row#rating-share"]
-  },
-
-  "flex-layout.row#rating-share": {
-    "props": {
-      "colSizing": "auto",
-      "preserveLayoutOnMobile": true,
-      "blockClass": "rating-share"
-    },
-    "children": [
-      "link#pdprating",
-      "flex-layout.col#spacer",
+      "availability-subscriber",
+      "shipping-simulator",
       "share#default"
     ]
   },
-   "link#pdprating": {
-    "props": {
-     "href": "#rating",
-      "blockClass":"pdprating",
-      "label" : "Ver"
-    },
-    "children": [
-      "product-rating-summary"
-    ]
-  },
+
   "flex-layout.row#product-name": {
     "props": {
       "marginBottom": 3
@@ -881,20 +133,10 @@
 
   "flex-layout.row#buy-button": {
     "props": {
-     "blockClass": "pdp-button"
+      "marginTop": 4,
+      "marginBottom": 7
     },
     "children": ["add-to-cart-button"]
-  },
-  "flex-layout.row#buy-button2": {
-    "props": {
-     "blockClass": "pdp-button2"
-    },
-    "children": ["add-to-cart-button#2"]
-  },
-  "add-to-cart-button#2":{
-    "props": {
-      "isOneClickBuy" :true
-    }
   },
 
   "flex-layout.row#product-availability": {
@@ -935,11 +177,8 @@
         "Facebook": true,
         "WhatsApp": true,
         "Twitter": false,
-        "Pinterest": false
+        "Pinterest": true
       }
     }
   }
-
-
-
 }
